@@ -45,8 +45,4 @@ A **distraction-free lecture watching web app** built to help students stay focu
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sanyam-Ahuja&layout=compact&theme=tokyonight)  
 
 ---
-
-## 🌐 Connect with Me  
-[![LinkedIn](linkedin.com/in/sanyam-ahuja-tiet/)  
-
----
+linkedin.com/in/sanyam-ahuja-tiet/
