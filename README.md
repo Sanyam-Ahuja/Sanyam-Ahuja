@@ -6,6 +6,18 @@
 
 ---
 
+## 🚀 Featured Project  
+
+### 🎥 [Study Manager](https://study-manager-eight.vercel.app)  
+A **distraction-free lecture watching web app** built to help students stay focused.  
+- ✅ Supports YouTube playlists for seamless study sessions  
+- ✅ 24/7 hosted on server  
+- ✅ Simple registration & login system  
+- ⚠️ *Note: Login/Registration may take up to 1 minute due to DB latency — please click once and wait*  
+
+---
+
+
 ## 🛠️ Tech Stack  
 - **Languages:** Python, C, ReactJS, HTML/CSS  
 - **Interests:** Cybersecurity | AI/ML | Backend Dev  
