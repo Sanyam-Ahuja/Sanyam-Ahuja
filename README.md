@@ -47,6 +47,6 @@ A **distraction-free lecture watching web app** built to help students stay focu
 ---
 
 ## 🌐 Connect with Me  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](linkedin.com/in/sanyam-ahuja-tiet/)  
+[![LinkedIn](linkedin.com/in/sanyam-ahuja-tiet/)  
 
 ---
