@@ -37,6 +37,8 @@ A **distraction-free lecture watching web app** built to help students stay focu
 - Maintain a **9.5+ CGPA** while mastering practical dev skills  
 
 ---
+Informal Intro
+I've worked on computers for more than 6 years and can safely say there's little that I cannot diagnose or troubleshoot within a system. Though still developing experience with programming languages, I've had experience with a good tech stack such as Python, HTML/CSS and React (with a project deployed). Apart from coding, I'm heavily immersed in Linux, basic cybersecurity, and PC hardware—be it building, fixing, or optimizing systems. I don't have all the syntaxes, but I certainly know computers inside and out.
 
 ## 📊 GitHub Stats  
 
