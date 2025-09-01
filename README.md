@@ -70,4 +70,4 @@ I've worked on computers for more than 6 years and can safely say there's little
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sanyam-Ahuja&layout=compact&theme=tokyonight)  
 
 ---
-![Linkedin](https://linkedin.com/in/sanyam-ahuja-tiet/)
+https://linkedin.com/in/sanyam-ahuja-tiet/
