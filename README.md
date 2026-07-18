@@ -13,7 +13,7 @@ I'm currently working on TIET's accreditation platform while spending most of my
 
 * [Can idle consumer GPUs become a useful compute marketplace?](https://github.com/Sanyam-Ahuja/CampusGrid)
 * [Can AI agents decide what should leave context?](https://github.com/Sanyam-Ahuja/context-pilot-mcp)
-* [How do you turn a manual accreditation workflow into maintainable software?](https://github.com/Sanyam-Ahuja/OBE)
+* [How do you turn a manual accreditation workflow into maintainable software?](https://sahuja.in/explorations/obe)
 
 ---
 
@@ -44,7 +44,7 @@ Most evenings you'll probably find me:
 * **Experimenting** with Proxmox
 * **Breaking** Fedora Silverblue
 * **Reading** *Designing Data-Intensive Applications* (DDIA)
-* **Writing** about systems on my [portfolio notes](https://sanyam-ahuja.github.io)
+* **Writing** about systems on my [portfolio notes](https://sahuja.in)
 
 ---
 
@@ -54,7 +54,7 @@ Most evenings you'll probably find me:
 A decentralized GPU compute marketplace designed to schedule and sandbox machine learning model training runs across untrusted consumer host machines.
 * **Engineering Challenge:** How do you securely run arbitrary user containers on untrusted consumer machines without root privileges, while still scheduling workloads efficiently?
 
-#### [OBE Platform](https://github.com/Sanyam-Ahuja/OBE)
+#### [OBE Platform (Case Study)](https://sahuja.in/explorations/obe)
 The backend database aggregation matrix engine powering Thapar's academic accreditation workflow for 15,000+ students.
 * **Engineering Challenge:** How do you turn a complex, manual institutional accreditation spreadsheet matrix into a highly performant software system, handling 15,000+ student data points with nested relational aggregates under concurrent access?
 
@@ -86,9 +86,9 @@ A geohash-indexed women safety routing and safety scoring application that runs 
 ### Latest Writing
 
 <!-- LATEST_WRITING_START -->
-* [Why I Daily-Drive Fedora Silverblue](https://sanyam-ahuja.github.io/notes/fedora-silverblue)
-* [My Homelab Was Never About Watching Movies](https://sanyam-ahuja.github.io/notes/homelab-movies)
-* [Why Tree-Sitter Uses Byte Offsets](https://sanyam-ahuja.github.io/notes/tree-sitter-byte-offsets)
+* [Why I Daily-Drive Fedora Silverblue](https://sahuja.in/notes/fedora-silverblue)
+* [My Homelab Was Never About Watching Movies](https://sahuja.in/notes/homelab-movies)
+* [Why Tree-Sitter Uses Byte Offsets](https://sahuja.in/notes/tree-sitter-byte-offsets)
 <!-- LATEST_WRITING_END -->
 
 ---
@@ -119,6 +119,6 @@ A geohash-indexed women safety routing and safety scoring application that runs 
 
 ### Navigation
 
-* **Portfolio:** [sanyam-ahuja.github.io](https://sanyam-ahuja.github.io)
+* **Portfolio:** [sahuja.in](https://sahuja.in)
 * **LinkedIn:** [sanyam-ahuja-tiet](https://www.linkedin.com/in/sanyam-ahuja-tiet/)
 * **Email:** [s.ahuja.alwar@gmail.com](mailto:s.ahuja.alwar@gmail.com)
