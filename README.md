@@ -1,121 +1,266 @@
-# 👋 Hi there, I'm **Sanyam Ahuja**
+# Hi, I'm Sanyam Ahuja 👋
 
-🚀 **Tech Enthusiast** | 🎓 B.E. COE @ Thapar University  
-💻 Passionate about **Cybersecurity, WebDev, AI/ML, and Backend Development**  
-🐧 Linux tinkerer & PC builder | 🔒 Security explorer  
+> Building AI systems, developer tools, and infrastructure software.
 
----
+🎓 Computer Engineering @ Thapar University  
+🐧 Linux • Infrastructure • Backend • AI Tooling • Distributed Systems
 
-![Profile Views](https://komarev.com/ghpvc/?username=Sanyam-Ahuja&color=blueviolet)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=flat-square)](https://linkedin.com/in/sanyam-ahuja-tiet/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-success?style=flat-square&logo=vercel)](https://sanyam-ahuja.github.io/)
-[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat-square&logo=vercel)](https://vercel.com)
-
----
-
-## 🚀 Featured Project  
-
-### 🧠 [Snapshoty](https://snapshoty.vercel.app)  
-An **AI-powered screenshot assistant** that turns your messy folders into **searchable knowledge**.  
-Built using **Qwen** + **Gemini API**, Snapshoty doesn’t just read text — it **understands** context.  
-
-#### ✨ Features  
-- 📸 **Universal Screenshot Processing:** Handles academic, technical, or casual screenshots with ease.  
-- 🔍 **Smart Search:** Find anything inside your screenshots — topics, phrases, or keywords.  
-- 🧠 **AI Notes & Learning Path:** Converts lecture screenshots into concise notes and structured study paths.  
-- ☁️ **Google Drive Storage:** Sync screenshots securely with your Drive.  
-  - 🛡️ **Privacy First:** Your screenshots are never stored on Snapshoty’s servers.  
-  - 🔒 All files remain in your personal Drive — full control and transparency.  
-- ⚙️ **Tech Stack:** Next.js • Qwen API • Gemini API • Google Drive API • Tailwind CSS • Vercel  
-
-> Snapshoty redefines digital organization — turning screenshots into smart, searchable, AI-powered notes.
+<p align="left">
+  <a href="https://linkedin.com/in/sanyam-ahuja-tiet">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://sanyam-ahuja.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://pypi.org/project/context-pilot-mcp/">
+    <img src="https://img.shields.io/pypi/v/context-pilot-mcp?label=context-pilot-mcp&logo=pypi&logoColor=white" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=Sanyam-Ahuja&color=blueviolet" />
+</p>
 
 ---
 
-<details>
-<summary>🎥 <b>Study Manager</b></summary>
-<br>
+## 🚀 Currently Building
 
-A **distraction-free lecture watching web app** built to help students stay focused.
-
-- ✅ Supports YouTube playlists for seamless study sessions  
-- ✅ 24/7 hosted on a dedicated server  
-- ✅ Simple registration & login system  
-- ⚠️ *Note: Login/Registration may take up to 1 minute due to DB latency — please click once and wait*
-
-🔗 [Visit Study Manager](https://study-manager-eight.vercel.app)
-</details>
+| Project | Description |
+|----------|-------------|
+| 🧠 **Snapshoty** | AI-powered screenshot organization and knowledge extraction platform |
+| ⚡ **CampuGrid** | Distributed peer-to-peer GPU compute marketplace |
+| 🤖 **AgenticGithub** | Autonomous GitHub contribution pipeline powered by AI agents |
+| 🧩 **context-pilot-mcp** | MCP server that optimizes AI coding context using AST compression |
 
 ---
 
-## 🧩 Tech Stack  
+# Featured Projects
 
-**Languages:**  
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+## 🧠 Snapshoty
 
-**Frameworks & Tools:**  
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white)
+An AI-powered screenshot knowledge system that transforms screenshots into searchable documentation.
 
-**Operating Systems:**  
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white)
-![Fedora](https://img.shields.io/badge/Fedora-294172?logo=fedora&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?logo=kali-linux&logoColor=white)
+### Highlights
+
+- 📸 Processes thousands of screenshots
+- 🔍 Semantic search
+- 🧠 AI-generated notes
+- ☁️ Google Drive sync
+- 🔒 Privacy-first architecture
+- ⚡ Built with Next.js, Gemini, Qwen & Google APIs
+
+**Tech**
+
+`Next.js` `TypeScript` `Gemini` `Qwen` `Google Drive API` `Tailwind`
 
 ---
 
-## 🌱 Currently Working On  
-- 🤖 **AI-powered Bus Routing System** (Python + Maps API + optimization algorithms)  
-- 📈 **College roadmap** (Cybersecurity + AI/ML specialization)  
+## 🧩 context-pilot-mcp
+
+> Open-source MCP server published on PyPI.
+
+Optimize context windows for AI coding assistants using AST compression.
+
+### Features
+
+- 🌳 Tree-sitter AST compression
+- 📉 Average **64% token reduction**
+- 🧠 Context relevance scoring
+- ⚡ Claude Code
+- ⚡ Cursor
+- ⚡ Roo
+- ⚡ Cline
+- ⚡ VS Code
+- ⚡ Any MCP-compatible client
+
+**Tech**
+
+`Python` `Tree-sitter` `MCP` `PyPI`
 
 ---
 
-## 🎯 Goals  
-- Contribute to **open-source cybersecurity projects**  
-- Become **GSOC-ready** with real-world development experience  
-- Maintain a **9.5+ CGPA** while mastering practical software engineering  
+## ⚡ CampuGrid *(In Development)*
+
+A decentralized GPU compute marketplace.
+
+Instead of renting GPUs from cloud providers, CampuGrid lets people rent unused consumer GPUs.
+
+### Building
+
+- FastAPI microservices
+- Kaniko
+- MinIO
+- PostgreSQL
+- Redis
+- AI workload scheduling
+- Rootless container builds
 
 ---
 
-<details>
-<summary>🌟 <b>Honourable Mentions</b></summary>
-<br>
+## 🤖 AgenticGithub *(In Development)*
 
-- 🐍 **The Coding Beast** — [Repo](https://github.com/Sanyam-Ahuja/The-Coding-Beast) | [Website](https://sanyam-ahuja.github.io/The-Coding-Beast/)  
-- 📚 **Exam Prep** — [Repo](https://github.com/Sanyam-Ahuja/EXAM_PREP) | [Website](https://sanyam-ahuja.github.io/EXAM_PREP/)  
-- 🔐 **Password Generator** — [Repo](https://github.com/Sanyam-Ahuja/PasswordGenerator)  
-- 💧 **WaterO (Business Idea Website)** — [Repo](https://github.com/Sanyam-Ahuja/Coding) | [Website](https://sanyam-ahuja.github.io/Coding/)  
-- 🍲 **South Indian Culture & Food** — [Repo](https://github.com/Sanyam-Ahuja/South-Indian-Culture-And-Food) | [Website](https://sanyam-ahuja.github.io/South-Indian-Culture-And-Food/)  
-- 🎥 **Tips & Tricks (Old YouTube Channel)** — [Repo](https://github.com/Sanyam-Ahuja/Tips-and-tricks-By-me) | [Website](https://sanyam-ahuja.github.io/Tips-and-tricks-By-me/)  
+An autonomous software engineering pipeline.
 
-</details>
+AI agents:
 
----
+- Discover GitHub issues
+- Clone repositories
+- Generate fixes
+- Test changes
+- Open Pull Requests
+- Retry failed executions automatically
 
-## 🗣️ About Me  
-I've worked on computers for **6+ years** — and there's little I can’t diagnose, fix, or optimize.  
-While still expanding my programming experience, I’ve built and deployed projects in **Python**, **React**, and **Next.js**.  
-I’m also deeply into **Linux**, **cybersecurity**, and **PC hardware** — whether it’s building, securing, or optimizing systems.  
-
-💡 *I might not remember every syntax, but I understand computers inside and out.*
+Built around an orchestration engine designed for long-running autonomous workflows.
 
 ---
 
-## 📊 GitHub Stats  
+## 🏗️ Study Manager
 
-![Sanyam's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sanyam-Ahuja&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Sanyam-Ahuja&layout=compact&theme=tokyonight)
+A distraction-free lecture management platform built for students.
+
+### Features
+
+- Organizes large offline lecture libraries
+- Fast filesystem indexing
+- Metadata extraction using ffprobe
+- Authentication
+- Playlist support
+- Hosted web interface
 
 ---
 
-⭐ **Thanks for stopping by!**  
-If you found something cool, drop a ⭐ or connect with me on [LinkedIn](https://linkedin.com/in/sanyam-ahuja-tiet/).
+# 🏠 Homelab
+
+I enjoy building and operating my own infrastructure.
+
+Currently running:
+
+- 🐳 Docker
+- 📦 LXC Containers
+- 🖥️ Proxmox
+- 🎬 Jellyfin
+- 📹 Frigate NVR
+- 🏡 Home Assistant
+- 📡 MQTT
+- 🌐 Tailscale
+- 🛡️ Pi-hole
+
+I'm constantly experimenting with Linux networking, virtualization, automation, and self-hosted AI.
+
+---
+
+# 💼 Experience
+
+Some things I've recently worked on:
+
+- Production CI/CD pipelines
+- Database migrations
+- Linux deployments
+- Redis & PostgreSQL
+- Backend APIs
+- Infrastructure automation
+- AI integrations
+- Cloud deployments
+
+---
+
+# 💻 Tech Stack
+
+## Languages
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/-C++-00599C?logo=cplusplus)
+![SQL](https://img.shields.io/badge/-SQL-336791?logo=postgresql)
+
+---
+
+## Backend
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js)
+![Express](https://img.shields.io/badge/Express-000000?logo=express)
+
+---
+
+## Databases
+
+![PostgreSQL](https://img.shields.io/badge/Postgres-4169E1?logo=postgresql)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?logo=postgresql)
+
+---
+
+## Infrastructure
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx)
+![PM2](https://img.shields.io/badge/PM2-2B037A)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?logo=tailscale)
+
+---
+
+## AI
+
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai)
+![Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?logo=google)
+![Ollama](https://img.shields.io/badge/Ollama-000000)
+![Claude](https://img.shields.io/badge/Claude_Code-D97757)
+![MCP](https://img.shields.io/badge/MCP-4B5563)
+
+---
+
+# 🌱 Engineering Interests
+
+- Infrastructure Engineering
+- Developer Tools
+- Distributed Systems
+- Operating Systems
+- Linux Internals
+- Computer Networking
+- Backend Architecture
+- Performance Engineering
+- AI Agents
+- Self-hosting
+
+---
+
+# 📈 GitHub Analytics
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sanyam-Ahuja&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanyam-Ahuja&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=Sanyam-Ahuja&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+# 📖 Currently Exploring
+
+- Designing resilient distributed systems
+- Infrastructure automation
+- Linux performance engineering
+- AI coding agents
+- Large-scale backend architecture
+- Developer productivity tooling
+
+---
+
+<div align="center">
+
+### I enjoy building software that sits at the intersection of AI, infrastructure, and developer experience.
+
+*"Build things that solve your own problems first—the rest will follow."*
+
+</div>
