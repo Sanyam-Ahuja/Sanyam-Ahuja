@@ -108,7 +108,7 @@ A geohash-indexed women safety routing and safety scoring application that runs 
 
 #### Recently Updated Repositories
 <!-- RECENT_REPOS_START -->
-* **[CampussGrid](https://github.com/Sanyam-Ahuja/CampussGrid)** (*TypeScript*)
+* **[CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)** (*TypeScript*)
 * **[AgenticGIthub](https://github.com/Sanyam-Ahuja/AgenticGIthub)** (*Python*)
 * **[Python-Old-Practice](https://github.com/Sanyam-Ahuja/Python-Old-Practice)** (*Python*)
 * **[Her-Voice](https://github.com/Sanyam-Ahuja/Her-Voice)** (*Python*)
