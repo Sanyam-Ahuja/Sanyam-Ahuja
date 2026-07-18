@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 Master build script for Sanyam's GitHub profile.
-Runs local scraping, custom heatmap SVG generation, and parses local Next.js portfolio MDX files
-to auto-generate latest blog post links.
+Runs local scraping, custom heatmap SVG generation, fetches recent GitHub activity,
+and templates the final README.md.
 """
 import os
 import re
@@ -15,49 +15,6 @@ sys.path.append(HERE)
 # Add imports for local scripts
 import fetch_contributions
 import render_heatmap_svg
-
-
-def parse_date(date_str):
-    try:
-        parts = date_str.split()
-        month_name = parts[0]
-        year = int(parts[1])
-        months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-        month = months.index(month_name) + 1
-        return (year, month)
-    except Exception:
-        return (0, 0)
-
-
-def extract_blog_posts():
-    # Local path to portfolio notes relative to the script
-    notes_dir = os.path.join(HERE, "..", "..", "..", "src", "content", "notes")
-    
-    if not os.path.exists(notes_dir):
-        print(f"Warning: Local portfolio notes directory not found at {notes_dir}. Falling back to default list.")
-        return None
-
-    posts = []
-    for filename in os.listdir(notes_dir):
-        if filename.endswith(".mdx") or filename.endswith(".md"):
-            filepath = os.path.join(notes_dir, filename)
-            slug = os.path.splitext(filename)[0]
-            with open(filepath, "r", encoding="utf-8") as f:
-                content = f.read()
-                
-            title_match = re.search(r'title:\s*["\'](.*?)["\']', content)
-            updated_match = re.search(r'updated:\s*["\'](.*?)["\']', content)
-            
-            if title_match and updated_match:
-                posts.append({
-                    "slug": slug,
-                    "title": title_match.group(1),
-                    "updated": updated_match.group(1)
-                })
-                
-    # Sort posts descending (newest first)
-    posts.sort(key=lambda p: parse_date(p["updated"]), reverse=True)
-    return posts
 
 
 def main():
@@ -80,7 +37,7 @@ def main():
         f.write(svg_content)
     print(f"Saved heatmap to {svg_path}")
 
-    print("[3/3] Parsing blog posts and generating README.md...")
+    print("[3/3] Generating README.md with live activity...")
     template_path = os.path.join(HERE, "..", "README_template.md")
     readme_path = os.path.join(HERE, "..", "README.md")
     
@@ -94,7 +51,6 @@ def main():
     # Extract existing readme segments for fallbacks
     old_commits_block = ""
     old_repos_block = ""
-    old_writing_block = ""
     
     if os.path.exists(readme_path):
         with open(readme_path, "r", encoding="utf-8") as f:
@@ -105,29 +61,8 @@ def main():
         repos_match = re.search(r'<!-- RECENT_REPOS_START -->([\s\S]*?)<!-- RECENT_REPOS_END -->', old_readme)
         if repos_match:
             old_repos_block = repos_match.group(1).strip()
-        writing_match = re.search(r'<!-- LATEST_WRITING_START -->([\s\S]*?)<!-- LATEST_WRITING_END -->', old_readme)
-        if writing_match:
-            old_writing_block = writing_match.group(1).strip()
 
-    # 1. Handle Latest Writing
-    posts = extract_blog_posts()
-    if posts:
-        writing_lines = []
-        for post in posts:
-            writing_lines.append(f"* [{post['title']}](https://sahuja.in/notes/{post['slug']})")
-        writing_block = "\n".join(writing_lines)
-    else:
-        if old_writing_block:
-            writing_block = old_writing_block
-        else:
-            default_posts = [
-                "* [Why I Daily-Drive Fedora Silverblue](https://sahuja.in/notes/fedora-silverblue)",
-                "* [My Homelab Was Never About Watching Movies](https://sahuja.in/notes/homelab-movies)",
-                "* [Why Tree-Sitter Uses Byte Offsets](https://sahuja.in/notes/tree-sitter-byte-offsets)"
-            ]
-            writing_block = "\n".join(default_posts)
-
-    # 2. Handle Recent Commits
+    # 1. Handle Recent Commits
     commits = data.get("latest_commits", [])
     if commits:
         commit_lines = []
@@ -137,7 +72,7 @@ def main():
     else:
         commits_block = old_commits_block if old_commits_block else "* No recent commits found."
 
-    # 3. Handle Recently Updated Repos
+    # 2. Handle Recently Updated Repos
     repos = data.get("recently_updated_repos", [])
     if repos:
         repo_lines = []
@@ -149,7 +84,6 @@ def main():
         repos_block = old_repos_block if old_repos_block else "* No recently updated repositories found."
 
     # Insert blocks into placeholders
-    readme_content = re.sub(r'(<!-- LATEST_WRITING_START -->)[\s\S]*?(<!-- LATEST_WRITING_END -->)', f"\\1\n{writing_block}\n\\2", readme_content)
     readme_content = re.sub(r'(<!-- RECENT_COMMITS_START -->)[\s\S]*?(<!-- RECENT_COMMITS_END -->)', f"\\1\n{commits_block}\n\\2", readme_content)
     readme_content = re.sub(r'(<!-- RECENT_REPOS_START -->)[\s\S]*?(<!-- RECENT_REPOS_END -->)', f"\\1\n{repos_block}\n\\2", readme_content)
     
