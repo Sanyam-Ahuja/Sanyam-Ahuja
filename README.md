@@ -2,7 +2,7 @@
 
 Computer Engineering student at Thapar Institute.
 
-Software Developer Intern building TIET's accreditation platform.
+Software Developer Intern at TIET, building the university's accreditation platform.
 
 I enjoy building backend systems, developer tooling, and distributed systems while spending an unhealthy amount of time breaking things in my homelab to understand how they actually work.
 
