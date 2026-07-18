@@ -12,7 +12,7 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 * Building [Context Pilot MCP](https://github.com/Sanyam-Ahuja/context-pilot-mcp)
 * Designing [CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)
 * Maintaining my Proxmox homelab
-* Reading DDIA & OSTEP
+* Learning operating systems and distributed systems
 
 ---
 
