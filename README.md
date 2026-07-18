@@ -1,27 +1,32 @@
-# Sanyam Ahuja
+# Hi, I'm Sanyam.
 
-**Computer Engineering Student @ Thapar Institute**  
-*Backend • Systems • Infrastructure*
+Computer Engineering student at Thapar Institute.
 
-I build developer tools, experiment with distributed systems, and operate my own infrastructure.
+Software Developer Intern building TIET's accreditation platform.
+
+Interested in backend engineering, distributed systems, developer tooling and infrastructure.
 
 ---
 
 ### Currently
-
-* **Software Developer Intern** @ TIET (Accreditation Platform)
-* **Building** [Context Pilot MCP](https://github.com/Sanyam-Ahuja/context-pilot-mcp) — AST-based coding context pruner
-* **Exploring** distributed systems through [CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid) — P2P GPU compute marketplace
-* **Running** a Proxmox homelab for self-hosted services
+* Building [Context Pilot MCP](https://github.com/Sanyam-Ahuja/context-pilot-mcp) — AST-based coding context pruner.
+* Exploring distributed systems through [CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid) — Distributed peer-to-peer GPU compute marketplace.
+* Maintaining a Proxmox homelab.
+* Learning more about operating systems and databases.
 
 ---
 
-### Open Source
+### Where to Click
 
-* **[context-pilot-mcp](https://github.com/Sanyam-Ahuja/context-pilot-mcp)** — AST-aware coding agent context pruner (*Python*)
-* **[CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)** — Distributed peer-to-peer GPU compute marketplace (*TypeScript*)
-* **[AgenticGIthub](https://github.com/Sanyam-Ahuja/AgenticGIthub)** — Orchestrated autonomous software engineering pipeline (*Python*)
-* **[Her-Voice](https://github.com/Sanyam-Ahuja/Her-Voice)** — Geohash-indexed women safety routing app using PostGIS (*Python*)
+* **Portfolio:** [sahuja.in](https://sahuja.in)
+* **LinkedIn:** [sanyam-ahuja-tiet](https://www.linkedin.com/in/sanyam-ahuja-tiet/)
+* **Email:** [s.ahuja.alwar@gmail.com](mailto:s.ahuja.alwar@gmail.com)
+
+#### Featured Repositories
+* **[context-pilot-mcp](https://github.com/Sanyam-Ahuja/context-pilot-mcp)** — AST-aware coding agent context pruner.
+* **[CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)** — Distributed peer-to-peer GPU compute marketplace.
+* **[AgenticGIthub](https://github.com/Sanyam-Ahuja/AgenticGIthub)** — Orchestrated autonomous software engineering pipeline.
+* **[Her-Voice](https://github.com/Sanyam-Ahuja/Her-Voice)** — Geohash-indexed women safety routing app using PostGIS.
 
 ---
 
@@ -54,11 +59,3 @@ I build developer tools, experiment with distributed systems, and operate my own
 * **[Her-Voice](https://github.com/Sanyam-Ahuja/Her-Voice)** (*Python*)
 * **[Sample-e-commerce-website](https://github.com/Sanyam-Ahuja/Sample-e-commerce-website)** — Anyone who know MERN stack can modify the components (*JavaScript*)
 <!-- RECENT_REPOS_END -->
-
----
-
-### Navigation
-
-* **Portfolio:** [sahuja.in](https://sahuja.in)
-* **LinkedIn:** [sanyam-ahuja-tiet](https://www.linkedin.com/in/sanyam-ahuja-tiet/)
-* **Email:** [s.ahuja.alwar@gmail.com](mailto:s.ahuja.alwar@gmail.com)
