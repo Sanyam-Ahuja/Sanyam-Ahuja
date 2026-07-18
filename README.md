@@ -232,10 +232,9 @@ Some things I've recently worked on:
 
 <p align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Sanyam-Ahuja&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanyam-Ahuja&layout=compact&theme=tokyonight&hide_border=true"/>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sanyam-Ahuja/Sanyam-Ahuja/main/github-metrics.svg">
+</p>
 </p>
 
 <p align="center">
