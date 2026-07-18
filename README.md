@@ -1,18 +1,18 @@
-# Hi, I'm Sanyam.
+# Sanyam Ahuja
 
 Computer Engineering student at Thapar Institute.
 
 Software Developer Intern building TIET's accreditation platform.
 
-Interested in backend engineering, distributed systems, developer tooling and infrastructure.
+I enjoy building backend systems, developer tooling, and distributed systems while spending an unhealthy amount of time breaking things in my homelab to understand how they actually work.
 
 ---
 
 ### Currently
-* Building [Context Pilot MCP](https://github.com/Sanyam-Ahuja/context-pilot-mcp) — AST-based coding context pruner.
 * Exploring distributed systems through [CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid) — Distributed peer-to-peer GPU compute marketplace.
 * Maintaining a Proxmox homelab.
 * Learning more about operating systems and databases.
+* Building [Context Pilot MCP](https://github.com/Sanyam-Ahuja/context-pilot-mcp) — AST-based coding context pruner.
 
 ---
 
