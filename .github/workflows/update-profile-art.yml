@@ -1,0 +1,38 @@
+name: Update profile art
+
+# Refreshes the contribution graph SVG and recent activity on a cadence.
+# Runs every 4 hours, plus whenever you push to main, plus on-demand.
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"   # runs every 4 hours
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Build profile README and assets
+        run: python scripts/build_profile.py
+        env:
+          GH_PROFILE_USER: Sanyam-Ahuja
+
+      - name: Commit updated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh profile contributions and activity [skip ci]"
+          file_pattern: "data/contributions.json sanyam-heatmap.svg README.md"
