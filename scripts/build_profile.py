@@ -114,16 +114,16 @@ def main():
     if posts:
         writing_lines = []
         for post in posts:
-            writing_lines.append(f"* [{post['title']}](https://sanyam-ahuja.github.io/notes/{post['slug']})")
+            writing_lines.append(f"* [{post['title']}](https://sahuja.in/notes/{post['slug']})")
         writing_block = "\n".join(writing_lines)
     else:
         if old_writing_block:
             writing_block = old_writing_block
         else:
             default_posts = [
-                "* [Why I Daily-Drive Fedora Silverblue](https://sanyam-ahuja.github.io/notes/fedora-silverblue)",
-                "* [My Homelab Was Never About Watching Movies](https://sanyam-ahuja.github.io/notes/homelab-movies)",
-                "* [Why Tree-Sitter Uses Byte Offsets](https://sanyam-ahuja.github.io/notes/tree-sitter-byte-offsets)"
+                "* [Why I Daily-Drive Fedora Silverblue](https://sahuja.in/notes/fedora-silverblue)",
+                "* [My Homelab Was Never About Watching Movies](https://sahuja.in/notes/homelab-movies)",
+                "* [Why Tree-Sitter Uses Byte Offsets](https://sahuja.in/notes/tree-sitter-byte-offsets)"
             ]
             writing_block = "\n".join(default_posts)
 
