@@ -1,6 +1,6 @@
 {
   "username": "Sanyam-Ahuja",
-  "generated_at": "2026-07-18T12:17:26Z",
+  "generated_at": "2026-07-18T12:17:38Z",
   "range": {
     "start": "2025-07-13",
     "end": "2026-07-18"
@@ -113,7 +113,38 @@
       "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/0ea29ad4461695b14e6868b047c5108bedbfd995"
     }
   ],
-  "recently_updated_repos": [],
+  "recently_updated_repos": [
+    {
+      "name": "CampusGrid",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid",
+      "language": "TypeScript"
+    },
+    {
+      "name": "AgenticGIthub",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/AgenticGIthub",
+      "language": "Python"
+    },
+    {
+      "name": "Python-Old-Practice",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/Python-Old-Practice",
+      "language": "Python"
+    },
+    {
+      "name": "Her-Voice",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/Her-Voice",
+      "language": "Python"
+    },
+    {
+      "name": "Sample-e-commerce-website",
+      "description": "Anyone who know MERN stack can modify the components",
+      "url": "https://github.com/Sanyam-Ahuja/Sample-e-commerce-website",
+      "language": "JavaScript"
+    }
+  ],
   "days": [
     {
       "date": "2025-07-13",
