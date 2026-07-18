@@ -11,7 +11,7 @@ I'm currently working on TIET's accreditation platform while spending most of my
 
 ### Currently thinking about
 
-* [Can idle consumer GPUs become a useful compute marketplace?](https://github.com/Sanyam-Ahuja/CampuGrid)
+* [Can idle consumer GPUs become a useful compute marketplace?](https://github.com/Sanyam-Ahuja/CampusGrid)
 * [Can AI agents decide what should leave context?](https://github.com/Sanyam-Ahuja/context-pilot-mcp)
 * [How do you turn a manual accreditation workflow into maintainable software?](https://github.com/Sanyam-Ahuja/OBE)
 
@@ -20,7 +20,7 @@ I'm currently working on TIET's accreditation platform while spending most of my
 ### Current Focus
 
 #### Currently Building
-* **CampuGrid** — Distributed peer-to-peer GPU compute marketplace.
+* **CampusGrid** — Distributed peer-to-peer GPU compute marketplace.
 * **context-pilot-mcp** — AST-compressing Model Context Protocol server.
 * **Portfolio** — Handcrafted engineering notebook and system dashboard.
 * **OBE Platform** — University-wide accreditation platform for academic audits.
@@ -50,7 +50,7 @@ Most evenings you'll probably find me:
 
 ### Featured Projects
 
-#### [CampuGrid](https://github.com/Sanyam-Ahuja/CampuGrid)
+#### [CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)
 A decentralized GPU compute marketplace designed to schedule and sandbox machine learning model training runs across untrusted consumer host machines.
 * **Engineering Challenge:** How do you securely run arbitrary user containers on untrusted consumer machines without root privileges, while still scheduling workloads efficiently?
 

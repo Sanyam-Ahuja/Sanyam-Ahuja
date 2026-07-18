@@ -42,9 +42,9 @@
   <text x="55" y="270" fill="#71717a" font-size="11">AST-Compressed Context Engine</text>
   <text x="55" y="286" fill="#a1a1aa" font-size="10">Optimizes context windows during AI dev loops.</text>
 
-  <!-- CampuGrid -->
+  <!-- CampusGrid -->
   <rect x="489" y="225" width="340" height="75" rx="8" fill="#0d0d11" stroke="#27272a" stroke-width="1.5"/>
-  <text x="504" y="250" fill="#e4e4e7" font-size="14" font-weight="700">CampuGrid</text>
+  <text x="504" y="250" fill="#e4e4e7" font-size="14" font-weight="700">CampusGrid</text>
   <text x="504" y="270" fill="#71717a" font-size="11">Decentralized P2P Compute Sandbox</text>
   <text x="504" y="286" fill="#a1a1aa" font-size="10">Schedules ML container runs across cluster nodes.</text>
 
@@ -54,11 +54,11 @@
   <path d="M 380 102.5 L 479 102.5" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
   <text x="434.5" y="94" fill="#3b82f6" font-size="10" font-weight="bold" text-anchor="middle">provisions &amp; manages</text>
 
-  <!-- Right Arrow (Proxmox -> CampuGrid) -->
+  <!-- Right Arrow (Proxmox -> CampusGrid) -->
   <path d="M 659 140 L 659 215" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
   <text x="669" y="182" fill="#3b82f6" font-size="10" font-weight="bold" text-anchor="start">hosts worker nodes</text>
 
-  <!-- Bottom Arrow (CampuGrid -> Context Pilot) -->
+  <!-- Bottom Arrow (CampusGrid -> Context Pilot) -->
   <path d="M 489 262.5 L 390 262.5" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
   <text x="439.5" y="254" fill="#3b82f6" font-size="10" font-weight="bold" text-anchor="middle">optimizes dev token usage</text>
 
