@@ -1,17 +1,17 @@
 {
   "username": "Sanyam-Ahuja",
-  "generated_at": "2026-07-23T01:52:27Z",
+  "generated_at": "2026-07-23T06:23:32Z",
   "range": {
     "start": "2025-07-20",
     "end": "2026-07-23"
   },
-  "total_contributions": 821,
-  "active_days": 110,
-  "avg_per_active_day": 7.5,
+  "total_contributions": 822,
+  "active_days": 111,
+  "avg_per_active_day": 7.4,
   "current_streak": {
-    "length": 9,
+    "length": 10,
     "start": "2026-07-14",
-    "end": "2026-07-22"
+    "end": "2026-07-23"
   },
   "longest_streak": {
     "length": 11,
@@ -73,11 +73,78 @@
     },
     {
       "month": "2026-07",
-      "total": 156
+      "total": 157
     }
   ],
-  "latest_commits": [],
-  "recently_updated_repos": [],
+  "latest_commits": [
+    {
+      "repo": "Her-Voice",
+      "sha": "836a495",
+      "message": "add README.md and update gitignore",
+      "date": "2026-06-06T20:40:47Z",
+      "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/836a4952b0a6fc4743c2f5515d75782289f0ef3c"
+    },
+    {
+      "repo": "Her-Voice",
+      "sha": "7973439",
+      "message": "feat: add Geography custom SQLAlchemy type and update location column to support PostGIS points",
+      "date": "2026-06-06T20:23:37Z",
+      "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/7973439cb1822ad3fc273fc91a8270a9ba9f025f"
+    },
+    {
+      "repo": "Her-Voice",
+      "sha": "0f65b1b",
+      "message": "fix UUID NameError in models.py by importing it correctly at the top",
+      "date": "2026-06-06T20:20:48Z",
+      "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/0f65b1b0e083fd02ab0228a08090674e754babbf"
+    },
+    {
+      "repo": "Her-Voice",
+      "sha": "120f0f8",
+      "message": "add location permissions and EAS project configuration to app manifest",
+      "date": "2026-06-06T20:20:04Z",
+      "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/120f0f8a4fe33b13a325598bd5ef0ad33bde368c"
+    },
+    {
+      "repo": "Her-Voice",
+      "sha": "0ea29ad",
+      "message": "import models inside main.py to register tables with SQLAlchemy metadata on startup",
+      "date": "2026-06-06T20:18:36Z",
+      "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/0ea29ad4461695b14e6868b047c5108bedbfd995"
+    }
+  ],
+  "recently_updated_repos": [
+    {
+      "name": "CampusGrid",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid",
+      "language": "TypeScript"
+    },
+    {
+      "name": "AgenticGIthub",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/AgenticGIthub",
+      "language": "Python"
+    },
+    {
+      "name": "Python-Old-Practice",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/Python-Old-Practice",
+      "language": "Python"
+    },
+    {
+      "name": "Her-Voice",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/Her-Voice",
+      "language": "Python"
+    },
+    {
+      "name": "Sample-e-commerce-website",
+      "description": "Anyone who know MERN stack can modify the components",
+      "url": "https://github.com/Sanyam-Ahuja/Sample-e-commerce-website",
+      "language": "JavaScript"
+    }
+  ],
   "days": [
     {
       "date": "2025-07-20",
@@ -1553,7 +1620,7 @@
     },
     {
       "date": "2026-07-23",
-      "count": 0
+      "count": 1
     }
   ]
 }
