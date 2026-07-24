@@ -1,13 +1,13 @@
 {
   "username": "Sanyam-Ahuja",
-  "generated_at": "2026-07-24T17:20:43Z",
+  "generated_at": "2026-07-24T20:55:26Z",
   "range": {
     "start": "2025-07-20",
     "end": "2026-07-24"
   },
-  "total_contributions": 834,
+  "total_contributions": 838,
   "active_days": 112,
-  "avg_per_active_day": 7.4,
+  "avg_per_active_day": 7.5,
   "current_streak": {
     "length": 11,
     "start": "2026-07-14",
@@ -73,44 +73,44 @@
     },
     {
       "month": "2026-07",
-      "total": 169
+      "total": 173
     }
   ],
   "latest_commits": [
     {
       "repo": "CampusGrid",
-      "sha": "dc727ab",
-      "message": "feat: add production environment configuration, Nginx reverse proxy settings, and expose container ports in docker-compose.prod.yml",
-      "date": "2026-07-24T17:09:11Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/dc727ab1b1a548f970ec5ef6dff06a8a636ae2f3"
+      "sha": "8b1d70a",
+      "message": "fix: enable native-tls feature for tokio-tungstenite in daemon",
+      "date": "2026-07-24T19:05:27Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/8b1d70a61fb5c2bfbb916f4d439ca542d193495a"
     },
     {
       "repo": "CampusGrid",
-      "sha": "db9c152",
-      "message": "feat: add production deployment infrastructure with Docker Compose, Caddy, and automation scripts",
-      "date": "2026-07-24T17:04:53Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/db9c1521acc76e2717d7aa024bc9414e5be0a9a2"
+      "sha": "f2f0c94",
+      "message": "fix: update WebSocket proxy location path to /api/v1/ws/ in nginx.conf",
+      "date": "2026-07-24T18:54:50Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/f2f0c946b83c6ea45e7a5c50edc1dd19aef50913"
     },
     {
       "repo": "CampusGrid",
-      "sha": "bb53bb2",
-      "message": "feat: implement node busy state for load management and sanitize tar extraction to prevent path traversal",
-      "date": "2026-07-24T16:59:15Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/bb53bb24bed97e94bab94da1dff2e3ca9882efab"
+      "sha": "634b720",
+      "message": "chore: add runtime env variables for NextAuth/OAuth to web service in docker-compose",
+      "date": "2026-07-24T18:42:08Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/634b720823c3ee224ff2e236b2cae21b9a2eabf5"
     },
     {
-      "repo": "Her-Voice",
-      "sha": "836a495",
-      "message": "add README.md and update gitignore",
-      "date": "2026-06-06T20:40:47Z",
-      "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/836a4952b0a6fc4743c2f5515d75782289f0ef3c"
+      "repo": "CampusGrid",
+      "sha": "79f5bd6",
+      "message": "fix: route /health and /metrics endpoints to FastAPI server in nginx.conf",
+      "date": "2026-07-24T18:28:18Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/79f5bd68fec70a4126e9c6b07d0bf6b44dcd128a"
     },
     {
-      "repo": "Her-Voice",
-      "sha": "7973439",
-      "message": "feat: add Geography custom SQLAlchemy type and update location column to support PostGIS points",
-      "date": "2026-06-06T20:23:37Z",
-      "url": "https://github.com/Sanyam-Ahuja/Her-Voice/commit/7973439cb1822ad3fc273fc91a8270a9ba9f025f"
+      "repo": "CampusGrid",
+      "sha": "157de25",
+      "message": "chore: remove Caddy container to prevent conflict with host Nginx",
+      "date": "2026-07-24T17:57:26Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/157de25962c8200547750728bdd80bcf78c6300d"
     }
   ],
   "recently_updated_repos": [
@@ -1624,7 +1624,7 @@
     },
     {
       "date": "2026-07-24",
-      "count": 7
+      "count": 11
     }
   ]
 }

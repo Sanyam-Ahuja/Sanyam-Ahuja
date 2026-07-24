@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
-* **CampusGrid** [`dc727ab`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/dc727ab1b1a548f970ec5ef6dff06a8a636ae2f3) — feat: add production environment configuration, Nginx reverse proxy settings, and expose container ports in docker-compose.prod.yml
-* **CampusGrid** [`db9c152`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/db9c1521acc76e2717d7aa024bc9414e5be0a9a2) — feat: add production deployment infrastructure with Docker Compose, Caddy, and automation scripts
-* **CampusGrid** [`bb53bb2`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/bb53bb24bed97e94bab94da1dff2e3ca9882efab) — feat: implement node busy state for load management and sanitize tar extraction to prevent path traversal
-* **Her-Voice** [`836a495`](https://github.com/Sanyam-Ahuja/Her-Voice/commit/836a4952b0a6fc4743c2f5515d75782289f0ef3c) — add README.md and update gitignore
-* **Her-Voice** [`7973439`](https://github.com/Sanyam-Ahuja/Her-Voice/commit/7973439cb1822ad3fc273fc91a8270a9ba9f025f) — feat: add Geography custom SQLAlchemy type and update location column to support PostGIS points
+* **CampusGrid** [`8b1d70a`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/8b1d70a61fb5c2bfbb916f4d439ca542d193495a) — fix: enable native-tls feature for tokio-tungstenite in daemon
+* **CampusGrid** [`f2f0c94`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/f2f0c946b83c6ea45e7a5c50edc1dd19aef50913) — fix: update WebSocket proxy location path to /api/v1/ws/ in nginx.conf
+* **CampusGrid** [`634b720`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/634b720823c3ee224ff2e236b2cae21b9a2eabf5) — chore: add runtime env variables for NextAuth/OAuth to web service in docker-compose
+* **CampusGrid** [`79f5bd6`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/79f5bd68fec70a4126e9c6b07d0bf6b44dcd128a) — fix: route /health and /metrics endpoints to FastAPI server in nginx.conf
+* **CampusGrid** [`157de25`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/157de25962c8200547750728bdd80bcf78c6300d) — chore: remove Caddy container to prevent conflict with host Nginx
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
