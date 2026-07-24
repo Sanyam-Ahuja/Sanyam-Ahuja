@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
+* **CampusGrid** [`dc727ab`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/dc727ab1b1a548f970ec5ef6dff06a8a636ae2f3) — feat: add production environment configuration, Nginx reverse proxy settings, and expose container ports in docker-compose.prod.yml
+* **CampusGrid** [`db9c152`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/db9c1521acc76e2717d7aa024bc9414e5be0a9a2) — feat: add production deployment infrastructure with Docker Compose, Caddy, and automation scripts
+* **CampusGrid** [`bb53bb2`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/bb53bb24bed97e94bab94da1dff2e3ca9882efab) — feat: implement node busy state for load management and sanitize tar extraction to prevent path traversal
 * **Her-Voice** [`836a495`](https://github.com/Sanyam-Ahuja/Her-Voice/commit/836a4952b0a6fc4743c2f5515d75782289f0ef3c) — add README.md and update gitignore
 * **Her-Voice** [`7973439`](https://github.com/Sanyam-Ahuja/Her-Voice/commit/7973439cb1822ad3fc273fc91a8270a9ba9f025f) — feat: add Geography custom SQLAlchemy type and update location column to support PostGIS points
-* **Her-Voice** [`0f65b1b`](https://github.com/Sanyam-Ahuja/Her-Voice/commit/0f65b1b0e083fd02ab0228a08090674e754babbf) — fix UUID NameError in models.py by importing it correctly at the top
-* **Her-Voice** [`120f0f8`](https://github.com/Sanyam-Ahuja/Her-Voice/commit/120f0f8a4fe33b13a325598bd5ef0ad33bde368c) — add location permissions and EAS project configuration to app manifest
-* **Her-Voice** [`0ea29ad`](https://github.com/Sanyam-Ahuja/Her-Voice/commit/0ea29ad4461695b14e6868b047c5108bedbfd995) — import models inside main.py to register tables with SQLAlchemy metadata on startup
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
