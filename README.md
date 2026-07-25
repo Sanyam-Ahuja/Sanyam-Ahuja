@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
-* **CampusGrid** [`8b1d70a`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/8b1d70a61fb5c2bfbb916f4d439ca542d193495a) — fix: enable native-tls feature for tokio-tungstenite in daemon
-* **CampusGrid** [`f2f0c94`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/f2f0c946b83c6ea45e7a5c50edc1dd19aef50913) — fix: update WebSocket proxy location path to /api/v1/ws/ in nginx.conf
-* **CampusGrid** [`634b720`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/634b720823c3ee224ff2e236b2cae21b9a2eabf5) — chore: add runtime env variables for NextAuth/OAuth to web service in docker-compose
-* **CampusGrid** [`79f5bd6`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/79f5bd68fec70a4126e9c6b07d0bf6b44dcd128a) — fix: route /health and /metrics endpoints to FastAPI server in nginx.conf
-* **CampusGrid** [`157de25`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/157de25962c8200547750728bdd80bcf78c6300d) — chore: remove Caddy container to prevent conflict with host Nginx
+* **CampusGrid** [`696649c`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/696649cc629275310eb8c88d6f63e1f9eae7a48e) — fix: make purge.py use REDIS_URL from env for container compatibility
+* **CampusGrid** [`585ac3f`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/585ac3ffe091f5ecb4590744d68e4fac81d8e19a) — fix: resolve MinIO Console assets loading blank screen behind Nginx reverse proxy subpath
+* **CampusGrid** [`b77a3e2`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/b77a3e2f9937683d100ee259effcb4b11885c2ee) — fix: force PNG format via Blender CLI flag -F PNG to bypass scene property locks
+* **CampusGrid** [`f02f840`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/f02f8408f047a9c01771a3b0ccf684496ab00c42) — fix: resolve Podman engine detection when using docker CLI with DOCKER_HOST socket
+* **CampusGrid** [`dba1ac1`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/dba1ac1da6c83a91b4e554879619cb87a3d465b9) — fix: wrap Blender image settings configuration in try/except to prevent enums crash on locked files
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
