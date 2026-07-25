@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
-* **CampusGrid** [`70983c0`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/70983c0a59e8eef7705b285faec0875cb3ee952a) — fix: store complete JobProfile attributes in job.profile to prevent frontend crashes
-* **CampusGrid** [`4e3b1f3`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/4e3b1f33207f7a00262fa5d6c0ca926ea371b6af) — fix: always write /tmp/final_render.mp4 in single-node compile; isolate purge transactions
-* **CampusGrid** [`8bcb662`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/8bcb662e30761982b4d8d032fbcad940a26b3d14) — fix: remove node status reset from purge.py (enum mismatch)
-* **CampusGrid** [`77c9346`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/77c9346a921eb923432bfc0eefbda11c72f48cbf) — fix: cast node_status enum explicitly in purge.py reset query
-* **CampusGrid** [`380b762`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/380b7620e4b1d31ca9e87861e2a69fb640ff6131) — fix: update purge.py for new schema (is_assembly migration, billing truncate, node reset)
+* **CampusGrid** [`5884f69`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/5884f69c96bf6dcbe642454335535785559dc29c) — feat: prioritize OptiX over CUDA for GPU rendering in Blender configuration
+* **CampusGrid** [`025464c`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/025464c56b98b5e8d5c3626c0ffa32ffb4187bb0) — chore: add SELinux labels to prometheus volumes and transition to imageio-ffmpeg for Blender rendering pipeline
+* **CampusGrid** [`1326072`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/1326072df06d23ffa986563630e73ba70b0f877c) — fix: correct syntax error in base64-encoded Blender GPU configuration script
+* **CampusGrid** [`6695cfe`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/6695cfea5f4d4f2f9a7f5aa7256a316b51dcb408) — feat: add asset demo bundle, prioritize CUDA over OptiX for Cycles rendering, and capture stderr in docker log streams
+* **CampusGrid** [`efbb6d3`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/efbb6d3e1ed0cf1234f7831f83c392fb4ed70052) — fix: add apt-get update before installing ffmpeg in Blender container compilation
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
