@@ -1,13 +1,13 @@
 {
   "username": "Sanyam-Ahuja",
-  "generated_at": "2026-07-25T13:01:36Z",
+  "generated_at": "2026-07-25T16:45:02Z",
   "range": {
     "start": "2025-07-20",
     "end": "2026-07-25"
   },
-  "total_contributions": 862,
+  "total_contributions": 878,
   "active_days": 113,
-  "avg_per_active_day": 7.6,
+  "avg_per_active_day": 7.8,
   "current_streak": {
     "length": 12,
     "start": "2026-07-14",
@@ -73,44 +73,44 @@
     },
     {
       "month": "2026-07",
-      "total": 197
+      "total": 213
     }
   ],
   "latest_commits": [
     {
       "repo": "CampusGrid",
-      "sha": "696649c",
-      "message": "fix: make purge.py use REDIS_URL from env for container compatibility",
-      "date": "2026-07-25T12:34:51Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/696649cc629275310eb8c88d6f63e1f9eae7a48e"
+      "sha": "70983c0",
+      "message": "fix: store complete JobProfile attributes in job.profile to prevent frontend crashes",
+      "date": "2026-07-25T16:04:27Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/70983c0a59e8eef7705b285faec0875cb3ee952a"
     },
     {
       "repo": "CampusGrid",
-      "sha": "585ac3f",
-      "message": "fix: resolve MinIO Console assets loading blank screen behind Nginx reverse proxy subpath",
-      "date": "2026-07-25T12:10:57Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/585ac3ffe091f5ecb4590744d68e4fac81d8e19a"
+      "sha": "4e3b1f3",
+      "message": "fix: always write /tmp/final_render.mp4 in single-node compile; isolate purge transactions",
+      "date": "2026-07-25T15:30:59Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/4e3b1f33207f7a00262fa5d6c0ca926ea371b6af"
     },
     {
       "repo": "CampusGrid",
-      "sha": "b77a3e2",
-      "message": "fix: force PNG format via Blender CLI flag -F PNG to bypass scene property locks",
-      "date": "2026-07-25T11:47:34Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/b77a3e2f9937683d100ee259effcb4b11885c2ee"
+      "sha": "8bcb662",
+      "message": "fix: remove node status reset from purge.py (enum mismatch)",
+      "date": "2026-07-25T14:41:19Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/8bcb662e30761982b4d8d032fbcad940a26b3d14"
     },
     {
       "repo": "CampusGrid",
-      "sha": "f02f840",
-      "message": "fix: resolve Podman engine detection when using docker CLI with DOCKER_HOST socket",
-      "date": "2026-07-25T11:41:57Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/f02f8408f047a9c01771a3b0ccf684496ab00c42"
+      "sha": "77c9346",
+      "message": "fix: cast node_status enum explicitly in purge.py reset query",
+      "date": "2026-07-25T14:40:09Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/77c9346a921eb923432bfc0eefbda11c72f48cbf"
     },
     {
       "repo": "CampusGrid",
-      "sha": "dba1ac1",
-      "message": "fix: wrap Blender image settings configuration in try/except to prevent enums crash on locked files",
-      "date": "2026-07-25T11:41:45Z",
-      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/dba1ac1da6c83a91b4e554879619cb87a3d465b9"
+      "sha": "380b762",
+      "message": "fix: update purge.py for new schema (is_assembly migration, billing truncate, node reset)",
+      "date": "2026-07-25T14:19:57Z",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid/commit/380b7620e4b1d31ca9e87861e2a69fb640ff6131"
     }
   ],
   "recently_updated_repos": [
@@ -1628,7 +1628,7 @@
     },
     {
       "date": "2026-07-25",
-      "count": 23
+      "count": 39
     }
   ]
 }

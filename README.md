@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
-* **CampusGrid** [`696649c`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/696649cc629275310eb8c88d6f63e1f9eae7a48e) — fix: make purge.py use REDIS_URL from env for container compatibility
-* **CampusGrid** [`585ac3f`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/585ac3ffe091f5ecb4590744d68e4fac81d8e19a) — fix: resolve MinIO Console assets loading blank screen behind Nginx reverse proxy subpath
-* **CampusGrid** [`b77a3e2`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/b77a3e2f9937683d100ee259effcb4b11885c2ee) — fix: force PNG format via Blender CLI flag -F PNG to bypass scene property locks
-* **CampusGrid** [`f02f840`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/f02f8408f047a9c01771a3b0ccf684496ab00c42) — fix: resolve Podman engine detection when using docker CLI with DOCKER_HOST socket
-* **CampusGrid** [`dba1ac1`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/dba1ac1da6c83a91b4e554879619cb87a3d465b9) — fix: wrap Blender image settings configuration in try/except to prevent enums crash on locked files
+* **CampusGrid** [`70983c0`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/70983c0a59e8eef7705b285faec0875cb3ee952a) — fix: store complete JobProfile attributes in job.profile to prevent frontend crashes
+* **CampusGrid** [`4e3b1f3`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/4e3b1f33207f7a00262fa5d6c0ca926ea371b6af) — fix: always write /tmp/final_render.mp4 in single-node compile; isolate purge transactions
+* **CampusGrid** [`8bcb662`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/8bcb662e30761982b4d8d032fbcad940a26b3d14) — fix: remove node status reset from purge.py (enum mismatch)
+* **CampusGrid** [`77c9346`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/77c9346a921eb923432bfc0eefbda11c72f48cbf) — fix: cast node_status enum explicitly in purge.py reset query
+* **CampusGrid** [`380b762`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/380b7620e4b1d31ca9e87861e2a69fb640ff6131) — fix: update purge.py for new schema (is_assembly migration, billing truncate, node reset)
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
