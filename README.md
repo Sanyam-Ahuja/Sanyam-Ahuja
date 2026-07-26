@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
+* **CampusGrid** [`67f97c4`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/67f97c46b9650693751dd5102c2bc1afe4d81678) — refactor: inject setup_commands via placeholder to ensure unzip/curl dependency installation precedes user-defined setup and increase retry limits for chunks and Gemini.
 * **CampusGrid** [`de7d2b9`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/de7d2b96a1e7965460b45681a176974b5eacd8fd) — refactor: simplify and generalize prompt for AI-driven container configuration generation
 * **CampusGrid** [`3de4fa4`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/3de4fa4e7a35e7a555e3595b00e5b940b9dc3c9d) — refactor: implement recursive container configuration self-correction by feeding previous wrapper scripts and error logs back to Gemini for up to three retry attempts.
 * **CampusGrid** [`e104e20`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/e104e207d434dcf658534571ab5be294d576ff8a) — fix: add tolerance margins to VRAM and RAM resource requirement checks in node scoring
 * **CampusGrid** [`fae44a3`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/fae44a356fadeeeb26adb8adc08242ab75260f41) — feat: standardize manifest file detection and implement automatic injection of execution wrappers for compiled workloads
-* **CampusGrid** [`6b5e550`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/6b5e5508d5d931d2b38078fb5b8288a066c46b0e) — feat: improve job input path handling, integrate orchestrator minio keys, and implement proper failure handling for AI fallback chunks
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
