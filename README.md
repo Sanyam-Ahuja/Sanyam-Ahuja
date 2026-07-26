@@ -44,18 +44,18 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
+* **fatebound** [`ce8e8e3`](https://github.com/Sanyam-Ahuja/fatebound/commit/ce8e8e38d836826343a68512c750f9dc2a584df7) — Add activity props, notification system, and NPC visuals components
+* **fatebound** [`0ab9770`](https://github.com/Sanyam-Ahuja/fatebound/commit/0ab97706dca37c410dce1520fb5a8df457aeb87c) — feat: add game time management hook and related utilities
+* **fatebound** [`0c383bb`](https://github.com/Sanyam-Ahuja/fatebound/commit/0c383bb73b9848b46199a35b794c098f60c7aaed) — Initial commit from Create Next App
 * **CampusGrid** [`67f97c4`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/67f97c46b9650693751dd5102c2bc1afe4d81678) — refactor: inject setup_commands via placeholder to ensure unzip/curl dependency installation precedes user-defined setup and increase retry limits for chunks and Gemini.
 * **CampusGrid** [`de7d2b9`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/de7d2b96a1e7965460b45681a176974b5eacd8fd) — refactor: simplify and generalize prompt for AI-driven container configuration generation
-* **CampusGrid** [`3de4fa4`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/3de4fa4e7a35e7a555e3595b00e5b940b9dc3c9d) — refactor: implement recursive container configuration self-correction by feeding previous wrapper scripts and error logs back to Gemini for up to three retry attempts.
-* **CampusGrid** [`e104e20`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/e104e207d434dcf658534571ab5be294d576ff8a) — fix: add tolerance margins to VRAM and RAM resource requirement checks in node scoring
-* **CampusGrid** [`fae44a3`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/fae44a356fadeeeb26adb8adc08242ab75260f41) — feat: standardize manifest file detection and implement automatic injection of execution wrappers for compiled workloads
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
 <!-- RECENT_REPOS_START -->
+* **[fatebound](https://github.com/Sanyam-Ahuja/fatebound)** (*TypeScript*)
 * **[CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)** (*TypeScript*)
 * **[AgenticGIthub](https://github.com/Sanyam-Ahuja/AgenticGIthub)** (*Python*)
 * **[Python-Old-Practice](https://github.com/Sanyam-Ahuja/Python-Old-Practice)** (*Python*)
 * **[Her-Voice](https://github.com/Sanyam-Ahuja/Her-Voice)** (*Python*)
-* **[Sample-e-commerce-website](https://github.com/Sanyam-Ahuja/Sample-e-commerce-website)** — Anyone who know MERN stack can modify the components (*JavaScript*)
 <!-- RECENT_REPOS_END -->
