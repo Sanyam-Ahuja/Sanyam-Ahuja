@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
-* **CampusGrid** [`5884f69`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/5884f69c96bf6dcbe642454335535785559dc29c) — feat: prioritize OptiX over CUDA for GPU rendering in Blender configuration
-* **CampusGrid** [`025464c`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/025464c56b98b5e8d5c3626c0ffa32ffb4187bb0) — chore: add SELinux labels to prometheus volumes and transition to imageio-ffmpeg for Blender rendering pipeline
-* **CampusGrid** [`1326072`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/1326072df06d23ffa986563630e73ba70b0f877c) — fix: correct syntax error in base64-encoded Blender GPU configuration script
-* **CampusGrid** [`6695cfe`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/6695cfea5f4d4f2f9a7f5aa7256a316b51dcb408) — feat: add asset demo bundle, prioritize CUDA over OptiX for Cycles rendering, and capture stderr in docker log streams
-* **CampusGrid** [`efbb6d3`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/efbb6d3e1ed0cf1234f7831f83c392fb4ed70052) — fix: add apt-get update before installing ffmpeg in Blender container compilation
+* **CampusGrid** [`de7d2b9`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/de7d2b96a1e7965460b45681a176974b5eacd8fd) — refactor: simplify and generalize prompt for AI-driven container configuration generation
+* **CampusGrid** [`3de4fa4`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/3de4fa4e7a35e7a555e3595b00e5b940b9dc3c9d) — refactor: implement recursive container configuration self-correction by feeding previous wrapper scripts and error logs back to Gemini for up to three retry attempts.
+* **CampusGrid** [`e104e20`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/e104e207d434dcf658534571ab5be294d576ff8a) — fix: add tolerance margins to VRAM and RAM resource requirement checks in node scoring
+* **CampusGrid** [`fae44a3`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/fae44a356fadeeeb26adb8adc08242ab75260f41) — feat: standardize manifest file detection and implement automatic injection of execution wrappers for compiled workloads
+* **CampusGrid** [`6b5e550`](https://github.com/Sanyam-Ahuja/CampusGrid/commit/6b5e5508d5d931d2b38078fb5b8288a066c46b0e) — feat: improve job input path handling, integrate orchestrator minio keys, and implement proper failure handling for AI fallback chunks
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
