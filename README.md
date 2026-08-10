@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
+* **notes-ai** [`225df22`](https://github.com/Sanyam-Ahuja/notes-ai/commit/225df22f48bb955ffe29d7ab5b9edc1cec43cfa1) — v1.0.0.1: Fix permission error in Program Files and fallback to user notes root
+* **notes-ai** [`75f305a`](https://github.com/Sanyam-Ahuja/notes-ai/commit/75f305aa7ba2a03516d3dbdeda05f116e685bdf7) — feat: implement SEO metadata, robots.txt, and sitemap for improved discoverability
 * **notes-ai** [`0a57a9f`](https://github.com/Sanyam-Ahuja/notes-ai/commit/0a57a9f47f38215132b2a128b5235020f47f1255) — refactor: remove versioning from UI and suppress onboarding wizard during automated tests
 * **notes-ai** [`55d4832`](https://github.com/Sanyam-Ahuja/notes-ai/commit/55d4832ff0c61195df3f28b686c129aba4416409) — refactor: redesign website to match portfolio aesthetic and optimize layout for desktop packages
 * **notes-ai** [`509a366`](https://github.com/Sanyam-Ahuja/notes-ai/commit/509a366fcc9bdffdf2ce4e7e05d9d2ce4ff4346f) — config: restore clean vercel.json with outputDirectory website
-* **notes-ai** [`3f7f31c`](https://github.com/Sanyam-Ahuja/notes-ai/commit/3f7f31cdcfe2a10436b70f3c7c49ffc5cc0d1881) — clean: remove vercel.json files and use Vercel project settings root directory
-* **notes-ai** [`f240477`](https://github.com/Sanyam-Ahuja/notes-ai/commit/f24047799113c54cffd20a3df91a4fb3570aef13) — fix: set Vercel outputDirectory to website for automated Vercel deployment and add Cloud Sync Strategy Controls
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
