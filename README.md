@@ -44,18 +44,18 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
+* **notes-ai** [`3ff47b7`](https://github.com/Sanyam-Ahuja/notes-ai/commit/3ff47b7e594e07da114b4045c12a48659bd637c1) — feat: implement question management system with GUI, AI integration, and problem-solving tracking
+* **notes-ai** [`6e06224`](https://github.com/Sanyam-Ahuja/notes-ai/commit/6e06224ec1e9dc96491c4a41e793aa66025217eb) — feat: initialize AI-driven lecture note generator with automated PDF export via Pandoc and WeasyPrint
 * **fatebound** [`deb3e34`](https://github.com/Sanyam-Ahuja/fatebound/commit/deb3e34fe21cf4bdcea0be75902e9566076d2df4) — fix: add missing useState import in EventLog component
 * **fatebound** [`3535e77`](https://github.com/Sanyam-Ahuja/fatebound/commit/3535e77470e23083f1509c63bce912cf44298cb8) — feat: add expandable description feature to event cards in EventLog
 * **fatebound** [`ce8e8e3`](https://github.com/Sanyam-Ahuja/fatebound/commit/ce8e8e38d836826343a68512c750f9dc2a584df7) — Add activity props, notification system, and NPC visuals components
-* **fatebound** [`0ab9770`](https://github.com/Sanyam-Ahuja/fatebound/commit/0ab97706dca37c410dce1520fb5a8df457aeb87c) — feat: add game time management hook and related utilities
-* **fatebound** [`0c383bb`](https://github.com/Sanyam-Ahuja/fatebound/commit/0c383bb73b9848b46199a35b794c098f60c7aaed) — Initial commit from Create Next App
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
 <!-- RECENT_REPOS_START -->
+* **[notes-ai](https://github.com/Sanyam-Ahuja/notes-ai)** (*Python*)
 * **[fatebound](https://github.com/Sanyam-Ahuja/fatebound)** (*TypeScript*)
 * **[CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)** (*TypeScript*)
 * **[AgenticGIthub](https://github.com/Sanyam-Ahuja/AgenticGIthub)** (*Python*)
 * **[Python-Old-Practice](https://github.com/Sanyam-Ahuja/Python-Old-Practice)** (*Python*)
-* **[Her-Voice](https://github.com/Sanyam-Ahuja/Her-Voice)** (*Python*)
 <!-- RECENT_REPOS_END -->
