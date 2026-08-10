@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
-* **notes-ai** [`3ff47b7`](https://github.com/Sanyam-Ahuja/notes-ai/commit/3ff47b7e594e07da114b4045c12a48659bd637c1) — feat: implement question management system with GUI, AI integration, and problem-solving tracking
-* **notes-ai** [`6e06224`](https://github.com/Sanyam-Ahuja/notes-ai/commit/6e06224ec1e9dc96491c4a41e793aa66025217eb) — feat: initialize AI-driven lecture note generator with automated PDF export via Pandoc and WeasyPrint
-* **fatebound** [`deb3e34`](https://github.com/Sanyam-Ahuja/fatebound/commit/deb3e34fe21cf4bdcea0be75902e9566076d2df4) — fix: add missing useState import in EventLog component
-* **fatebound** [`3535e77`](https://github.com/Sanyam-Ahuja/fatebound/commit/3535e77470e23083f1509c63bce912cf44298cb8) — feat: add expandable description feature to event cards in EventLog
-* **fatebound** [`ce8e8e3`](https://github.com/Sanyam-Ahuja/fatebound/commit/ce8e8e38d836826343a68512c750f9dc2a584df7) — Add activity props, notification system, and NPC visuals components
+* **notes-ai** [`0a57a9f`](https://github.com/Sanyam-Ahuja/notes-ai/commit/0a57a9f47f38215132b2a128b5235020f47f1255) — refactor: remove versioning from UI and suppress onboarding wizard during automated tests
+* **notes-ai** [`55d4832`](https://github.com/Sanyam-Ahuja/notes-ai/commit/55d4832ff0c61195df3f28b686c129aba4416409) — refactor: redesign website to match portfolio aesthetic and optimize layout for desktop packages
+* **notes-ai** [`509a366`](https://github.com/Sanyam-Ahuja/notes-ai/commit/509a366fcc9bdffdf2ce4e7e05d9d2ce4ff4346f) — config: restore clean vercel.json with outputDirectory website
+* **notes-ai** [`3f7f31c`](https://github.com/Sanyam-Ahuja/notes-ai/commit/3f7f31cdcfe2a10436b70f3c7c49ffc5cc0d1881) — clean: remove vercel.json files and use Vercel project settings root directory
+* **notes-ai** [`f240477`](https://github.com/Sanyam-Ahuja/notes-ai/commit/f24047799113c54cffd20a3df91a4fb3570aef13) — fix: set Vercel outputDirectory to website for automated Vercel deployment and add Cloud Sync Strategy Controls
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
