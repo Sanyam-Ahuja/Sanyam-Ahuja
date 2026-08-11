@@ -53,9 +53,9 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Recently Updated Repositories
 <!-- RECENT_REPOS_START -->
+* **[camera_hack_sim](https://github.com/Sanyam-Ahuja/camera_hack_sim)** (*TypeScript*)
 * **[notes-ai](https://github.com/Sanyam-Ahuja/notes-ai)** (*Python*)
 * **[fatebound](https://github.com/Sanyam-Ahuja/fatebound)** (*TypeScript*)
 * **[CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)** (*TypeScript*)
 * **[AgenticGIthub](https://github.com/Sanyam-Ahuja/AgenticGIthub)** (*Python*)
-* **[Python-Old-Practice](https://github.com/Sanyam-Ahuja/Python-Old-Practice)** (*Python*)
 <!-- RECENT_REPOS_END -->

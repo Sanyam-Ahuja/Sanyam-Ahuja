@@ -1,11 +1,11 @@
 {
   "username": "Sanyam-Ahuja",
-  "generated_at": "2026-08-11T16:46:51Z",
+  "generated_at": "2026-08-11T20:34:21Z",
   "range": {
     "start": "2025-08-10",
     "end": "2026-08-11"
   },
-  "total_contributions": 1041,
+  "total_contributions": 1042,
   "active_days": 127,
   "avg_per_active_day": 8.2,
   "current_streak": {
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-08",
-      "total": 110
+      "total": 111
     }
   ],
   "latest_commits": [
@@ -113,7 +113,38 @@
       "url": "https://github.com/Sanyam-Ahuja/notes-ai/commit/0a57a9f47f38215132b2a128b5235020f47f1255"
     }
   ],
-  "recently_updated_repos": [],
+  "recently_updated_repos": [
+    {
+      "name": "camera_hack_sim",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/camera_hack_sim",
+      "language": "TypeScript"
+    },
+    {
+      "name": "notes-ai",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/notes-ai",
+      "language": "Python"
+    },
+    {
+      "name": "fatebound",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/fatebound",
+      "language": "TypeScript"
+    },
+    {
+      "name": "CampusGrid",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/CampusGrid",
+      "language": "TypeScript"
+    },
+    {
+      "name": "AgenticGIthub",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/AgenticGIthub",
+      "language": "Python"
+    }
+  ],
   "days": [
     {
       "date": "2025-08-10",
@@ -1581,7 +1612,7 @@
     },
     {
       "date": "2026-08-11",
-      "count": 14
+      "count": 15
     }
   ]
 }
