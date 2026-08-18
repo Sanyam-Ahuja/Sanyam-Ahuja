@@ -55,7 +55,7 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 <!-- RECENT_REPOS_START -->
 * **[Google_photos_maps_takeout](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout)** (*HTML*)
 * **[opencv_video](https://github.com/Sanyam-Ahuja/opencv_video)** (*Python*)
-* **[Cyber_Vault_Game](https://github.com/Sanyam-Ahuja/Cyber_Vault_Game)** (*Other*)
 * **[camera_hack_sim](https://github.com/Sanyam-Ahuja/camera_hack_sim)** (*TypeScript*)
 * **[notes-ai](https://github.com/Sanyam-Ahuja/notes-ai)** (*Python*)
+* **[fatebound](https://github.com/Sanyam-Ahuja/fatebound)** (*TypeScript*)
 <!-- RECENT_REPOS_END -->
