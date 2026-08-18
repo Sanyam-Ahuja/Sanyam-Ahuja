@@ -44,18 +44,18 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
-* **Google_photos_maps_takeout** [`0fdb1fa`](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/0fdb1fa424fdc261eede4f73a6ca6beb1b2371b7) — refactor: implement lazy file resolution and virtualized grid rendering with an asynchronous concurrency queue
-* **Google_photos_maps_takeout** [`eabf320`](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/eabf3200b8be43dd3342917e05f3c4f9bf14d53f) — refactor: remove map.html and initialize new directory structure with README.md and index.html
-* **Google_photos_maps_takeout** [`6ccb636`](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/6ccb636df8f43fccf9c995d63cefb8d5f642a2d7) — feat: add PhotoMap interactive geographic viewer with Leaflet and EXIF support
-* **opencv_video** [`475fc78`](https://github.com/Sanyam-Ahuja/opencv_video/commit/475fc78b9500624a9e374d49e41e56c8b4447e08) — refactor: enhance hand-reveal pipeline with flexible masking modes, rotation support, and comprehensive output telemetry.
-* **opencv_video** [`e04a401`](https://github.com/Sanyam-Ahuja/opencv_video/commit/e04a4018331c11df15530989f312e258b040ef14) — first commit
+* **auto_portfolio_maker** [`25f0e3b`](https://github.com/Sanyam-Ahuja/auto_portfolio_maker/commit/25f0e3b4dfac3cafcfc401dbb6288ef28f074c06) — refactor: streamline user onboarding logic and simplify client-side auth/utility handling
+* **auto_portfolio_maker** [`6a55e25`](https://github.com/Sanyam-Ahuja/auto_portfolio_maker/commit/6a55e25b5945c70ae80d0fec91f001d63ab1964a) — refactor: implement theme support, modularize dashboard components, and enhance resume import logic
+* **auto_portfolio_maker** [`96acd7b`](https://github.com/Sanyam-Ahuja/auto_portfolio_maker/commit/96acd7b5a9267caa9ead649bc2657c42a7651cf4) — refactor: modularize profile, skills, and social editors, implement robust username collision protection, and standardize public site URL generation.
+* **auto_portfolio_maker** [`2f3f044`](https://github.com/Sanyam-Ahuja/auto_portfolio_maker/commit/2f3f0444138c432bbe58aae6d022e954930edc9b) — feat: implement auto-website generation on authentication and add interactive TemplateSelectorButton with loading states
+* **auto_portfolio_maker** [`9d88e9d`](https://github.com/Sanyam-Ahuja/auto_portfolio_maker/commit/9d88e9d465e1e09d260ddc62df8b2528b8f4daa4) — refactor: remove domain restrictions, globalize app configuration, and implement loading states with skeleton screens
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
 <!-- RECENT_REPOS_START -->
+* **[auto_portfolio_maker](https://github.com/Sanyam-Ahuja/auto_portfolio_maker)** (*TypeScript*)
 * **[Google_photos_maps_takeout](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout)** (*HTML*)
 * **[opencv_video](https://github.com/Sanyam-Ahuja/opencv_video)** (*Python*)
 * **[camera_hack_sim](https://github.com/Sanyam-Ahuja/camera_hack_sim)** (*TypeScript*)
 * **[notes-ai](https://github.com/Sanyam-Ahuja/notes-ai)** (*Python*)
-* **[fatebound](https://github.com/Sanyam-Ahuja/fatebound)** (*TypeScript*)
 <!-- RECENT_REPOS_END -->
