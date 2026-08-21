@@ -1,11 +1,11 @@
 {
   "username": "Sanyam-Ahuja",
-  "generated_at": "2026-08-21T16:20:20Z",
+  "generated_at": "2026-08-21T20:14:28Z",
   "range": {
     "start": "2025-08-17",
     "end": "2026-08-21"
   },
-  "total_contributions": 1137,
+  "total_contributions": 1139,
   "active_days": 137,
   "avg_per_active_day": 8.3,
   "current_streak": {
@@ -73,10 +73,17 @@
     },
     {
       "month": "2026-08",
-      "total": 206
+      "total": 208
     }
   ],
   "latest_commits": [
+    {
+      "repo": "crud-app-testing",
+      "sha": "7dda3d9",
+      "message": "first commit",
+      "date": "2026-08-21T20:10:21Z",
+      "url": "https://github.com/Sanyam-Ahuja/crud-app-testing/commit/7dda3d95458178c529679e6b47625c5a36fa3468"
+    },
     {
       "repo": "Portfolio-Generator",
       "sha": "d526e90",
@@ -104,16 +111,15 @@
       "message": "feat: add PhotoMap interactive geographic viewer with Leaflet and EXIF support",
       "date": "2026-08-16T13:57:08Z",
       "url": "https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/6ccb636df8f43fccf9c995d63cefb8d5f642a2d7"
-    },
-    {
-      "repo": "opencv_video",
-      "sha": "475fc78",
-      "message": "refactor: enhance hand-reveal pipeline with flexible masking modes, rotation support, and comprehensive output telemetry.",
-      "date": "2026-08-12T19:25:01Z",
-      "url": "https://github.com/Sanyam-Ahuja/opencv_video/commit/475fc78b9500624a9e374d49e41e56c8b4447e08"
     }
   ],
   "recently_updated_repos": [
+    {
+      "name": "crud-app-testing",
+      "description": "",
+      "url": "https://github.com/Sanyam-Ahuja/crud-app-testing",
+      "language": "JavaScript"
+    },
     {
       "name": "Portfolio-Generator",
       "description": "",
@@ -137,12 +143,6 @@
       "description": "",
       "url": "https://github.com/Sanyam-Ahuja/camera_hack_sim",
       "language": "TypeScript"
-    },
-    {
-      "name": "notes-ai",
-      "description": "",
-      "url": "https://github.com/Sanyam-Ahuja/notes-ai",
-      "language": "Python"
     }
   ],
   "days": [
@@ -1624,7 +1624,7 @@
     },
     {
       "date": "2026-08-21",
-      "count": 7
+      "count": 9
     }
   ]
 }
