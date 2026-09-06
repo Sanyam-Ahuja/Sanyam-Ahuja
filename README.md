@@ -44,11 +44,11 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Latest Commits
 <!-- RECENT_COMMITS_START -->
+* **Portfolio-Generator** [`a8ee028`](https://github.com/Sanyam-Ahuja/Portfolio-Generator/commit/a8ee02862db5351addcae1e889b69ebf8a585efa) — Merge pull request #1 from Sanyam-Ahuja/main
 * **Portfolio-Generator** [`d526e90`](https://github.com/Sanyam-Ahuja/Portfolio-Generator/commit/d526e9047d62eef2602cade7e4917f5b41fdc003) — feat: initialize portfolio generator platform with dashboard, template registry, and content moderation system
 * **Google_photos_maps_takeout** [`0fdb1fa`](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/0fdb1fa424fdc261eede4f73a6ca6beb1b2371b7) — refactor: implement lazy file resolution and virtualized grid rendering with an asynchronous concurrency queue
 * **Google_photos_maps_takeout** [`eabf320`](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/eabf3200b8be43dd3342917e05f3c4f9bf14d53f) — refactor: remove map.html and initialize new directory structure with README.md and index.html
 * **Google_photos_maps_takeout** [`6ccb636`](https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/6ccb636df8f43fccf9c995d63cefb8d5f642a2d7) — feat: add PhotoMap interactive geographic viewer with Leaflet and EXIF support
-* **opencv_video** [`475fc78`](https://github.com/Sanyam-Ahuja/opencv_video/commit/475fc78b9500624a9e374d49e41e56c8b4447e08) — refactor: enhance hand-reveal pipeline with flexible masking modes, rotation support, and comprehensive output telemetry.
 <!-- RECENT_COMMITS_END -->
 
 #### Recently Updated Repositories
