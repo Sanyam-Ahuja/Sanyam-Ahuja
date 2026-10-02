@@ -36,9 +36,4 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 * [My Homelab Was Never About Watching Movies](https://sahuja.in/notes/homelab-movies)
 * [Why Tree-Sitter Uses Byte Offsets](https://sahuja.in/notes/tree-sitter-byte-offsets)
 
----
-
-### GitHub Activity
-
-<img src="./sanyam-heatmap.svg" width="860" alt="Sanyam Ahuja's GitHub contribution graph — auto-refreshed every 2 days" />
 
