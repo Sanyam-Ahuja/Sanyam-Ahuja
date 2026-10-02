@@ -3,8 +3,6 @@
 Scrape real daily contribution counts from GitHub's public, unauthenticated
 contributions endpoint (the same fragment the profile page itself uses) and
 write data/contributions.json with the raw days plus derived stats.
-
-Also fetches recent commits and updated repositories from the GitHub API.
 """
 import datetime
 import json
@@ -82,74 +80,6 @@ def compute_longest_streak(days):
     return longest, longest_start, longest_end
 
 
-def fetch_latest_commits():
-    # Query recently updated repos first
-    url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=6"
-    try:
-        resp = requests.get(url, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=15)
-        resp.raise_for_status()
-        repos = resp.json()
-        
-        all_commits = []
-        for repo in repos:
-            repo_name = repo["name"]
-            # Focus on actual project codebases, skipping the profile config repo itself
-            if repo_name == USERNAME:
-                continue
-            
-            commits_url = f"https://api.github.com/repos/{USERNAME}/{repo_name}/commits?author={USERNAME}&per_page=5"
-            c_resp = requests.get(commits_url, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=15)
-            if c_resp.status_code == 200:
-                commits = c_resp.json()
-                for c in commits:
-                    commit_data = c.get("commit", {})
-                    committer = commit_data.get("committer", {})
-                    date = committer.get("date", "")
-                    message = commit_data.get("message", "").split("\n")[0]
-                    # Skip automated commits or CI skips
-                    if "chore: refresh" in message or "skip ci" in message:
-                        continue
-                    all_commits.append({
-                        "repo": repo_name,
-                        "sha": c["sha"][:7],
-                        "message": message,
-                        "date": date,
-                        "url": c["html_url"]
-                    })
-                    
-        # Sort commits descending by commit date
-        all_commits.sort(key=lambda x: x["date"], reverse=True)
-        return all_commits[:5]
-    except Exception as e:
-        print(f"Error fetching commits: {e}")
-        return []
-
-
-def fetch_recently_updated_repos():
-    url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&per_page=10"
-    try:
-        resp = requests.get(url, headers={"User-Agent": "profile-readme-bot/1.0"}, timeout=15)
-        resp.raise_for_status()
-        repos = resp.json()
-        result = []
-        for r in repos:
-            # Skip the profile config repo itself
-            if r["name"] == USERNAME:
-                continue
-            result.append({
-                "name": r["name"],
-                "description": r["description"] or "",
-                "url": r["html_url"],
-                "language": r["language"] or "Other"
-            })
-            if len(result) >= 5:
-                break
-        return result
-    except Exception as e:
-        print(f"Error fetching repos: {e}")
-        return []
-
-
 def build_data(days):
     total = sum(d["count"] for d in days)
     active_days = sum(1 for d in days if d["count"] > 0)
@@ -163,11 +93,6 @@ def build_data(days):
         monthly[key] = monthly.get(key, 0) + d["count"]
     monthly_list = [{"month": k, "total": v} for k, v in sorted(monthly.items())]
 
-    # Fetch dynamic commits and repos
-    print("Fetching dynamic GitHub activity...")
-    commits = fetch_latest_commits()
-    repos = fetch_recently_updated_repos()
-
     return {
         "username": USERNAME,
         "generated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -179,8 +104,6 @@ def build_data(days):
         "longest_streak": {"length": long_len, "start": long_start, "end": long_end},
         "best_day": {"date": best["date"], "count": best["count"]},
         "monthly": monthly_list,
-        "latest_commits": commits,
-        "recently_updated_repos": repos,
         "days": days,
     }
 

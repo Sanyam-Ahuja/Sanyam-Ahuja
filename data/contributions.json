@@ -1,26 +1,26 @@
 {
   "username": "Sanyam-Ahuja",
-  "generated_at": "2026-10-02T03:09:02Z",
+  "generated_at": "2026-10-02T09:22:38Z",
   "range": {
     "start": "2025-09-28",
     "end": "2026-10-02"
   },
-  "total_contributions": 2112,
-  "active_days": 171,
-  "avg_per_active_day": 12.4,
+  "total_contributions": 0,
+  "active_days": 0,
+  "avg_per_active_day": 0,
   "current_streak": {
-    "length": 80,
-    "start": "2026-07-14",
-    "end": "2026-10-01"
+    "length": 0,
+    "start": null,
+    "end": null
   },
   "longest_streak": {
-    "length": 80,
-    "start": "2026-07-14",
-    "end": "2026-10-01"
+    "length": 0,
+    "start": null,
+    "end": null
   },
   "best_day": {
-    "date": "2026-09-21",
-    "count": 273
+    "date": "2025-09-28",
+    "count": 0
   },
   "monthly": [
     {
@@ -29,124 +29,55 @@
     },
     {
       "month": "2025-10",
-      "total": 36
+      "total": 0
     },
     {
       "month": "2025-11",
-      "total": 26
+      "total": 0
     },
     {
       "month": "2025-12",
-      "total": 8
+      "total": 0
     },
     {
       "month": "2026-01",
-      "total": 152
+      "total": 0
     },
     {
       "month": "2026-02",
-      "total": 77
+      "total": 0
     },
     {
       "month": "2026-03",
-      "total": 46
+      "total": 0
     },
     {
       "month": "2026-04",
-      "total": 114
+      "total": 0
     },
     {
       "month": "2026-05",
-      "total": 8
+      "total": 0
     },
     {
       "month": "2026-06",
-      "total": 110
+      "total": 0
     },
     {
       "month": "2026-07",
-      "total": 284
+      "total": 0
     },
     {
       "month": "2026-08",
-      "total": 351
+      "total": 0
     },
     {
       "month": "2026-09",
-      "total": 861
+      "total": 0
     },
     {
       "month": "2026-10",
-      "total": 39
-    }
-  ],
-  "latest_commits": [
-    {
-      "repo": "prism",
-      "sha": "ddb95c4",
-      "message": "init",
-      "date": "2026-09-21T17:33:37Z",
-      "url": "https://github.com/Sanyam-Ahuja/prism/commit/ddb95c41d681a1396c85d4be1eec1207aba0d773"
-    },
-    {
-      "repo": "Portfolio-Generator",
-      "sha": "a8ee028",
-      "message": "Merge pull request #1 from Sanyam-Ahuja/main",
-      "date": "2026-08-20T19:03:23Z",
-      "url": "https://github.com/Sanyam-Ahuja/Portfolio-Generator/commit/a8ee02862db5351addcae1e889b69ebf8a585efa"
-    },
-    {
-      "repo": "Portfolio-Generator",
-      "sha": "d526e90",
-      "message": "feat: initialize portfolio generator platform with dashboard, template registry, and content moderation system",
-      "date": "2026-08-20T19:01:17Z",
-      "url": "https://github.com/Sanyam-Ahuja/Portfolio-Generator/commit/d526e9047d62eef2602cade7e4917f5b41fdc003"
-    },
-    {
-      "repo": "Google_photos_maps_takeout",
-      "sha": "0fdb1fa",
-      "message": "refactor: implement lazy file resolution and virtualized grid rendering with an asynchronous concurrency queue",
-      "date": "2026-08-16T14:18:07Z",
-      "url": "https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/0fdb1fa424fdc261eede4f73a6ca6beb1b2371b7"
-    },
-    {
-      "repo": "Google_photos_maps_takeout",
-      "sha": "eabf320",
-      "message": "refactor: remove map.html and initialize new directory structure with README.md and index.html",
-      "date": "2026-08-16T13:59:27Z",
-      "url": "https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout/commit/eabf3200b8be43dd3342917e05f3c4f9bf14d53f"
-    }
-  ],
-  "recently_updated_repos": [
-    {
-      "name": "prism",
-      "description": "",
-      "url": "https://github.com/Sanyam-Ahuja/prism",
-      "language": "Python"
-    },
-    {
-      "name": "Portfolio-Generator",
-      "description": "",
-      "url": "https://github.com/Sanyam-Ahuja/Portfolio-Generator",
-      "language": "TypeScript"
-    },
-    {
-      "name": "Google_photos_maps_takeout",
-      "description": "",
-      "url": "https://github.com/Sanyam-Ahuja/Google_photos_maps_takeout",
-      "language": "HTML"
-    },
-    {
-      "name": "opencv_video",
-      "description": "",
-      "url": "https://github.com/Sanyam-Ahuja/opencv_video",
-      "language": "Python"
-    },
-    {
-      "name": "camera_hack_sim",
-      "description": "",
-      "url": "https://github.com/Sanyam-Ahuja/camera_hack_sim",
-      "language": "TypeScript"
+      "total": 0
     }
   ],
   "days": [
@@ -224,11 +155,11 @@
     },
     {
       "date": "2025-10-16",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2025-10-17",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2025-10-18",
@@ -240,11 +171,11 @@
     },
     {
       "date": "2025-10-20",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2025-10-21",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2025-10-22",
@@ -252,15 +183,15 @@
     },
     {
       "date": "2025-10-23",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2025-10-24",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2025-10-25",
-      "count": 14
+      "count": 0
     },
     {
       "date": "2025-10-26",
@@ -268,11 +199,11 @@
     },
     {
       "date": "2025-10-27",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2025-10-28",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2025-10-29",
@@ -280,7 +211,7 @@
     },
     {
       "date": "2025-10-30",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2025-10-31",
@@ -308,7 +239,7 @@
     },
     {
       "date": "2025-11-06",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2025-11-07",
@@ -336,15 +267,15 @@
     },
     {
       "date": "2025-11-13",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2025-11-14",
-      "count": 21
+      "count": 0
     },
     {
       "date": "2025-11-15",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2025-11-16",
@@ -524,11 +455,11 @@
     },
     {
       "date": "2025-12-30",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2025-12-31",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-01-01",
@@ -600,7 +531,7 @@
     },
     {
       "date": "2026-01-18",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-01-19",
@@ -608,15 +539,15 @@
     },
     {
       "date": "2026-01-20",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-01-21",
-      "count": 18
+      "count": 0
     },
     {
       "date": "2026-01-22",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-01-23",
@@ -640,11 +571,11 @@
     },
     {
       "date": "2026-01-28",
-      "count": 15
+      "count": 0
     },
     {
       "date": "2026-01-29",
-      "count": 76
+      "count": 0
     },
     {
       "date": "2026-01-30",
@@ -652,7 +583,7 @@
     },
     {
       "date": "2026-01-31",
-      "count": 29
+      "count": 0
     },
     {
       "date": "2026-02-01",
@@ -680,11 +611,11 @@
     },
     {
       "date": "2026-02-07",
-      "count": 17
+      "count": 0
     },
     {
       "date": "2026-02-08",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-02-09",
@@ -700,11 +631,11 @@
     },
     {
       "date": "2026-02-12",
-      "count": 19
+      "count": 0
     },
     {
       "date": "2026-02-13",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-02-14",
@@ -712,11 +643,11 @@
     },
     {
       "date": "2026-02-15",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-02-16",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-02-17",
@@ -724,15 +655,15 @@
     },
     {
       "date": "2026-02-18",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-02-19",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-02-20",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-02-21",
@@ -744,11 +675,11 @@
     },
     {
       "date": "2026-02-23",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-02-24",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-02-25",
@@ -760,11 +691,11 @@
     },
     {
       "date": "2026-02-27",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-02-28",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-03-01",
@@ -796,11 +727,11 @@
     },
     {
       "date": "2026-03-08",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-03-09",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-03-10",
@@ -836,7 +767,7 @@
     },
     {
       "date": "2026-03-18",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-03-19",
@@ -848,7 +779,7 @@
     },
     {
       "date": "2026-03-21",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-03-22",
@@ -856,7 +787,7 @@
     },
     {
       "date": "2026-03-23",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-03-24",
@@ -864,7 +795,7 @@
     },
     {
       "date": "2026-03-25",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-03-26",
@@ -880,47 +811,47 @@
     },
     {
       "date": "2026-03-29",
-      "count": 22
+      "count": 0
     },
     {
       "date": "2026-03-30",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-03-31",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-04-01",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-04-02",
-      "count": 12
+      "count": 0
     },
     {
       "date": "2026-04-03",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-04-04",
-      "count": 12
+      "count": 0
     },
     {
       "date": "2026-04-05",
-      "count": 22
+      "count": 0
     },
     {
       "date": "2026-04-06",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-04-07",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-04-08",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-04-09",
@@ -928,15 +859,15 @@
     },
     {
       "date": "2026-04-10",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-04-11",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-04-12",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-04-13",
@@ -948,7 +879,7 @@
     },
     {
       "date": "2026-04-15",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-04-16",
@@ -968,7 +899,7 @@
     },
     {
       "date": "2026-04-20",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-04-21",
@@ -976,11 +907,11 @@
     },
     {
       "date": "2026-04-22",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-04-23",
-      "count": 24
+      "count": 0
     },
     {
       "date": "2026-04-24",
@@ -988,7 +919,7 @@
     },
     {
       "date": "2026-04-25",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-04-26",
@@ -996,7 +927,7 @@
     },
     {
       "date": "2026-04-27",
-      "count": 11
+      "count": 0
     },
     {
       "date": "2026-04-28",
@@ -1040,7 +971,7 @@
     },
     {
       "date": "2026-05-08",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-05-09",
@@ -1124,15 +1055,15 @@
     },
     {
       "date": "2026-05-29",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-05-30",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-05-31",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-06-01",
@@ -1140,7 +1071,7 @@
     },
     {
       "date": "2026-06-02",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-06-03",
@@ -1152,15 +1083,15 @@
     },
     {
       "date": "2026-06-05",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-06-06",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-06-07",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-06-08",
@@ -1172,35 +1103,35 @@
     },
     {
       "date": "2026-06-10",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-06-11",
-      "count": 12
+      "count": 0
     },
     {
       "date": "2026-06-12",
-      "count": 1
+      "count": 0
     },
     {
       "date": "2026-06-13",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-06-14",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-06-15",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-06-16",
-      "count": 10
+      "count": 0
     },
     {
       "date": "2026-06-17",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-06-18",
@@ -1208,7 +1139,7 @@
     },
     {
       "date": "2026-06-19",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-06-20",
@@ -1216,23 +1147,23 @@
     },
     {
       "date": "2026-06-21",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-06-22",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-06-23",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-06-24",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-06-25",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-06-26",
@@ -1248,15 +1179,15 @@
     },
     {
       "date": "2026-06-29",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-06-30",
-      "count": 8
+      "count": 0
     },
     {
       "date": "2026-07-01",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-07-02",
@@ -1276,19 +1207,19 @@
     },
     {
       "date": "2026-07-06",
-      "count": 31
+      "count": 0
     },
     {
       "date": "2026-07-07",
-      "count": 17
+      "count": 0
     },
     {
       "date": "2026-07-08",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-07-09",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-07-10",
@@ -1308,323 +1239,323 @@
     },
     {
       "date": "2026-07-14",
-      "count": 11
+      "count": 0
     },
     {
       "date": "2026-07-15",
-      "count": 16
+      "count": 0
     },
     {
       "date": "2026-07-16",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-07-17",
-      "count": 11
+      "count": 0
     },
     {
       "date": "2026-07-18",
-      "count": 28
+      "count": 0
     },
     {
       "date": "2026-07-19",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-20",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-07-21",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-22",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-23",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-24",
-      "count": 12
+      "count": 0
     },
     {
       "date": "2026-07-25",
-      "count": 48
+      "count": 0
     },
     {
       "date": "2026-07-26",
-      "count": 30
+      "count": 0
     },
     {
       "date": "2026-07-27",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-28",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-29",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-30",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-07-31",
-      "count": 8
+      "count": 0
     },
     {
       "date": "2026-08-01",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-02",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-08-03",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-08-04",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-05",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-06",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-08-07",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-08",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-09",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-10",
-      "count": 29
+      "count": 0
     },
     {
       "date": "2026-08-11",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-08-12",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-08-13",
-      "count": 8
+      "count": 0
     },
     {
       "date": "2026-08-14",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-15",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-16",
-      "count": 12
+      "count": 0
     },
     {
       "date": "2026-08-17",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-18",
-      "count": 31
+      "count": 0
     },
     {
       "date": "2026-08-19",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-08-20",
-      "count": 25
+      "count": 0
     },
     {
       "date": "2026-08-21",
-      "count": 10
+      "count": 0
     },
     {
       "date": "2026-08-22",
-      "count": 12
+      "count": 0
     },
     {
       "date": "2026-08-23",
-      "count": 30
+      "count": 0
     },
     {
       "date": "2026-08-24",
-      "count": 33
+      "count": 0
     },
     {
       "date": "2026-08-25",
-      "count": 13
+      "count": 0
     },
     {
       "date": "2026-08-26",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-08-27",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-08-28",
-      "count": 10
+      "count": 0
     },
     {
       "date": "2026-08-29",
-      "count": 15
+      "count": 0
     },
     {
       "date": "2026-08-30",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-08-31",
-      "count": 11
+      "count": 0
     },
     {
       "date": "2026-09-01",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-09-02",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-03",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-04",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-05",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-09-06",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-09-07",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-09-08",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-09",
-      "count": 7
+      "count": 0
     },
     {
       "date": "2026-09-10",
-      "count": 17
+      "count": 0
     },
     {
       "date": "2026-09-11",
-      "count": 22
+      "count": 0
     },
     {
       "date": "2026-09-12",
-      "count": 50
+      "count": 0
     },
     {
       "date": "2026-09-13",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-14",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-09-15",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-16",
-      "count": 8
+      "count": 0
     },
     {
       "date": "2026-09-17",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-18",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-19",
-      "count": 43
+      "count": 0
     },
     {
       "date": "2026-09-20",
-      "count": 65
+      "count": 0
     },
     {
       "date": "2026-09-21",
-      "count": 273
+      "count": 0
     },
     {
       "date": "2026-09-22",
-      "count": 170
+      "count": 0
     },
     {
       "date": "2026-09-23",
-      "count": 29
+      "count": 0
     },
     {
       "date": "2026-09-24",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-09-25",
-      "count": 68
+      "count": 0
     },
     {
       "date": "2026-09-26",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-09-27",
-      "count": 4
+      "count": 0
     },
     {
       "date": "2026-09-28",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-09-29",
-      "count": 6
+      "count": 0
     },
     {
       "date": "2026-09-30",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2026-10-01",
-      "count": 39
+      "count": 0
     },
     {
       "date": "2026-10-02",

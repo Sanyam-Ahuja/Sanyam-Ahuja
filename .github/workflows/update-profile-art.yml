@@ -1,11 +1,11 @@
 name: Update profile art
 
-# Refreshes the contribution graph SVG and recent activity on a cadence.
-# Runs every 4 hours, plus whenever you push to main, plus on-demand.
+# Refreshes the contribution graph SVG on a cadence.
+# Runs every 2 days, plus whenever you push to main, plus on-demand.
 
 on:
   schedule:
-    - cron: "0 */4 * * *"   # runs every 4 hours
+    - cron: "0 0 */2 * *"   # runs every 2 days
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -34,5 +34,5 @@ jobs:
       - name: Commit updated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: refresh profile contributions and activity [skip ci]"
+          commit_message: "chore: refresh profile contributions [skip ci]"
           file_pattern: "data/contributions.json sanyam-heatmap.svg README.md"

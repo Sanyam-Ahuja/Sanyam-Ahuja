@@ -40,12 +40,5 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 ### GitHub Activity
 
-<img src="./sanyam-heatmap.svg" width="860" alt="Sanyam Ahuja's GitHub contribution graph — auto-refreshed daily" />
+<img src="./sanyam-heatmap.svg" width="860" alt="Sanyam Ahuja's GitHub contribution graph — auto-refreshed every 2 days" />
 
-#### Latest Commits
-<!-- RECENT_COMMITS_START -->
-<!-- RECENT_COMMITS_END -->
-
-#### Recently Updated Repositories
-<!-- RECENT_REPOS_START -->
-<!-- RECENT_REPOS_END -->

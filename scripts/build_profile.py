@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
 Master build script for Sanyam's GitHub profile.
-Runs local scraping, custom heatmap SVG generation, fetches recent GitHub activity,
-and templates the final README.md.
+Runs local scraping, custom heatmap SVG generation,
+and generates the final README.md.
 """
 import os
-import re
 import sys
 import json
 
@@ -37,7 +36,7 @@ def main():
         f.write(svg_content)
     print(f"Saved heatmap to {svg_path}")
 
-    print("[3/3] Generating README.md with live activity...")
+    print("[3/3] Generating README.md...")
     template_path = os.path.join(HERE, "..", "README_template.md")
     readme_path = os.path.join(HERE, "..", "README.md")
     
@@ -48,45 +47,6 @@ def main():
     with open(template_path, "r", encoding="utf-8") as f:
         readme_content = f.read()
 
-    # Extract existing readme segments for fallbacks
-    old_commits_block = ""
-    old_repos_block = ""
-    
-    if os.path.exists(readme_path):
-        with open(readme_path, "r", encoding="utf-8") as f:
-            old_readme = f.read()
-        commits_match = re.search(r'<!-- RECENT_COMMITS_START -->([\s\S]*?)<!-- RECENT_COMMITS_END -->', old_readme)
-        if commits_match:
-            old_commits_block = commits_match.group(1).strip()
-        repos_match = re.search(r'<!-- RECENT_REPOS_START -->([\s\S]*?)<!-- RECENT_REPOS_END -->', old_readme)
-        if repos_match:
-            old_repos_block = repos_match.group(1).strip()
-
-    # 1. Handle Recent Commits
-    commits = data.get("latest_commits", [])
-    if commits:
-        commit_lines = []
-        for c in commits:
-            commit_lines.append(f"* **{c['repo']}** [`{c['sha']}`]({c['url']}) — {c['message']}")
-        commits_block = "\n".join(commit_lines)
-    else:
-        commits_block = old_commits_block if old_commits_block else "* No recent commits found."
-
-    # 2. Handle Recently Updated Repos
-    repos = data.get("recently_updated_repos", [])
-    if repos:
-        repo_lines = []
-        for r in repos:
-            desc = f" — {r['description']}" if r['description'] else ""
-            repo_lines.append(f"* **[{r['name']}]({r['url']})**{desc} (*{r['language']}*)")
-        repos_block = "\n".join(repo_lines)
-    else:
-        repos_block = old_repos_block if old_repos_block else "* No recently updated repositories found."
-
-    # Insert blocks into placeholders
-    readme_content = re.sub(r'(<!-- RECENT_COMMITS_START -->)[\s\S]*?(<!-- RECENT_COMMITS_END -->)', f"\\1\n{commits_block}\n\\2", readme_content)
-    readme_content = re.sub(r'(<!-- RECENT_REPOS_START -->)[\s\S]*?(<!-- RECENT_REPOS_END -->)', f"\\1\n{repos_block}\n\\2", readme_content)
-    
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(readme_content)
     print(f"Successfully generated profile README at {readme_path}")
