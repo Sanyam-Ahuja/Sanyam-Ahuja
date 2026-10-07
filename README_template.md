@@ -10,7 +10,6 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 ### Currently
 * Building [Context Pilot MCP](https://github.com/Sanyam-Ahuja/context-pilot-mcp)
-* Designing [CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)
 * Maintaining my Proxmox homelab
 * Learning operating systems and distributed systems
 
@@ -24,7 +23,6 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 
 #### Featured Repositories
 * **[context-pilot-mcp](https://github.com/Sanyam-Ahuja/context-pilot-mcp)** — AST-aware coding agent context pruner.
-* **[CampusGrid](https://github.com/Sanyam-Ahuja/CampusGrid)** — Distributed peer-to-peer GPU compute marketplace.
 * **[AgenticGIthub](https://github.com/Sanyam-Ahuja/AgenticGIthub)** — Orchestrated autonomous software engineering pipeline.
 * **[Her-Voice](https://github.com/Sanyam-Ahuja/Her-Voice)** — Geohash-indexed women safety routing app using PostGIS.
 
@@ -35,5 +33,4 @@ I enjoy building backend systems, developer tooling, and distributed systems whi
 * [Why My Local Machine Runs on Fedora Silverblue](https://sahuja.in/notes/fedora-silverblue)
 * [My Homelab Was Never About Watching Movies](https://sahuja.in/notes/homelab-movies)
 * [Why Tree-Sitter Uses Byte Offsets](https://sahuja.in/notes/tree-sitter-byte-offsets)
-
 
